@@ -1,0 +1,169 @@
+rules_version = '2';
+
+// VidyaPath AI Firestore rules.
+// Principle: the client may read its own data and public content, and may write only
+// profile preferences, study plans, blocks, reports and notification read flags.
+// Everything that carries value (XP, Stars, streaks, rewards, votes, attempts, progress)
+// is written exclusively by Cloud Functions with the Admin SDK, which bypasses these rules.
+// See SECURITY.md for the full matrix.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------- helpers ----------
+    function signedIn() { return request.auth != null; }
+    function isOwner(uid) { return signedIn() && request.auth.uid == uid; }
+    function isAdmin() { return signedIn() && request.auth.token.admin == true; }
+    function ownsDoc() { return signedIn() && resource.data.userId == request.auth.uid; }
+    function onlyFields(allowed) { return request.resource.data.diff(resource.data).affectedKeys().hasOnly(allowed); }
+    function validClass(value) { return value is int && value >= 9 && value <= 12; }
+    function validGoal(value) { return value in ['board', 'jee', 'neet', 'board_jee', 'board_neet']; }
+    function validBoard(value) { return value in ['CBSE', 'ICSE', 'State']; }
+    function validStream(value) { return value == null || value in ['PCM', 'PCB', 'PCMB']; }
+    function validLanguage(value) { return value in ['en', 'hi']; }
+    function validSubjects(value) { return value is list && value.size() <= 8; }
+    function validName(value) { return value is string && value.size() >= 1 && value.size() <= 60; }
+
+    // ---------- content: readable when signed in, written only by admins / the seed script ----------
+    match /subjects/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /chapters/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /topics/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /modules/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /questions/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /quizzes/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /problems/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /rewards/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /dailyChallenges/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /careerPaths/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /badges/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+    match /appConfig/{id} { allow read: if signedIn(); allow write: if isAdmin(); }
+
+    // Answer keys and worked solutions never reach the client directly.
+    match /questionKeys/{id} { allow read, write: if isAdmin(); }
+    match /problemSolutions/{id} { allow read, write: if isAdmin(); }
+
+    // ---------- private user record ----------
+    match /users/{uid} {
+      allow read: if isOwner(uid) || isAdmin();
+      allow create: if isOwner(uid) && validUserCreate(uid);
+      allow update: if (isOwner(uid) && validUserUpdate()) || (isAdmin() && onlyFields(['role', 'updatedAt']));
+      allow delete: if false;
+    }
+    function validUserCreate(uid) {
+      let data = request.resource.data;
+      return data.uid == uid
+        && data.email == request.auth.token.email
+        && validName(data.name)
+        && validClass(data.classLevel) && validBoard(data.board) && validStream(data.stream)
+        && validLanguage(data.language) && validSubjects(data.subjects) && validGoal(data.goal)
+        && data.role == 'student'
+        && data.xp == 0 && data.stars == 0 && data.questionsSolved == 0 && data.modulesCompleted == 0
+        && data.createdAt == request.time && data.updatedAt == request.time;
+    }
+    function validUserUpdate() {
+      let data = request.resource.data;
+      return onlyFields(['name', 'classLevel', 'board', 'stream', 'language', 'subjects', 'goal', 'updatedAt'])
+        && validName(data.name)
+        && validClass(data.classLevel) && validBoard(data.board) && validStream(data.stream)
+        && validLanguage(data.language) && validSubjects(data.subjects) && validGoal(data.goal)
+        && data.updatedAt == request.time;
+    }
+
+    // Anonymous public profile. Derived server-side from users/{uid}; no email, name or contact info.
+    match /publicProfiles/{uid} { allow read: if signedIn(); allow write: if false; }
+
+    // ---------- server-only learning state, owner readable ----------
+    match /studentProgress/{uid}/{document=**} { allow read: if isOwner(uid) || isAdmin(); allow write: if false; }
+    match /streaks/{uid} { allow read: if isOwner(uid) || isAdmin(); allow write: if false; }
+    match /spinState/{uid} { allow read: if isOwner(uid) || isAdmin(); allow write: if false; }
+    match /userBadges/{uid}/badges/{id} { allow read: if isOwner(uid) || isAdmin(); allow write: if false; }
+    match /aiSessions/{uid}/messages/{id} { allow read: if isOwner(uid); allow write: if false; }
+    match /studyTwins/{id} { allow read: if signedIn() && request.auth.uid in resource.data.members; allow write: if false; }
+    match /twinChallenges/{id} { allow read: if signedIn() && request.auth.uid in resource.data.members; allow write: if false; }
+
+    match /quizAttempts/{id} { allow read: if ownsDoc() || isAdmin(); allow write: if false; }
+    match /problemAttempts/{id} { allow read: if ownsDoc() || isAdmin(); allow write: if false; }
+    match /mistakes/{id} { allow read: if ownsDoc() || isAdmin(); allow write: if false; }
+    match /studySessions/{id} { allow read: if ownsDoc(); allow write: if false; }
+    match /xpTransactions/{id} { allow read: if ownsDoc() || isAdmin(); allow write: if false; }
+    match /starsTransactions/{id} { allow read: if ownsDoc() || isAdmin(); allow write: if false; }
+    match /spinHistory/{id} { allow read: if ownsDoc(); allow write: if false; }
+    match /votes/{id} { allow read: if ownsDoc(); allow write: if false; }
+    match /quizCompletions/{id} { allow read: if ownsDoc(); allow write: if false; }
+    match /challengeCompletions/{id} { allow read: if ownsDoc(); allow write: if false; }
+    match /dailyActivity/{id} { allow read: if signedIn() && resource.data.uid == request.auth.uid; allow write: if false; }
+    match /aiUsage/{id} { allow read: if signedIn() && resource.data.uid == request.auth.uid; allow write: if false; }
+    match /processedEvents/{id} { allow read, write: if false; }
+
+    match /rewardClaims/{id} {
+      allow read: if ownsDoc() || isAdmin();
+      allow update: if isAdmin() && onlyFields(['status']) && request.resource.data.status in ['pending', 'approved', 'fulfilled', 'rejected'];
+      allow create, delete: if false;
+    }
+
+    // ---------- owner-writable, validated ----------
+    match /studyPlans/{uid} {
+      allow read: if isOwner(uid);
+      allow create, update: if isOwner(uid) && validStudyPlan(uid);
+      allow delete: if isOwner(uid);
+    }
+    function validStudyPlan(uid) {
+      let data = request.resource.data;
+      return data.uid == uid
+        && data.minutesPerDay is int && data.minutesPerDay >= 15 && data.minutesPerDay <= 720
+        && (data.examDate == null || (data.examDate is string && data.examDate.size() == 10))
+        && data.subjects is list && data.subjects.size() <= 8
+        && data.allocation is map
+        && data.focusTopicIds is list && data.focusTopicIds.size() <= 20
+        && data.updatedAt == request.time;
+    }
+
+    match /notifications/{uid}/items/{id} {
+      allow read: if isOwner(uid);
+      allow update: if isOwner(uid) && onlyFields(['read']) && request.resource.data.read is bool;
+      allow create, delete: if false;
+    }
+
+    match /blocks/{uid}/users/{blockedUid} {
+      allow read: if isOwner(uid);
+      allow create: if isOwner(uid) && blockedUid != uid
+        && request.resource.data.blockedUid == blockedUid
+        && request.resource.data.createdAt == request.time;
+      allow delete: if isOwner(uid);
+      allow update: if false;
+    }
+
+    match /reports/{id} {
+      allow read: if isAdmin() || (signedIn() && resource.data.reporterId == request.auth.uid);
+      allow create: if signedIn() && validReport();
+      allow update: if isAdmin() && onlyFields(['status']) && request.resource.data.status in ['open', 'resolved', 'dismissed'];
+      allow delete: if false;
+    }
+    function validReport() {
+      let data = request.resource.data;
+      return data.reporterId == request.auth.uid
+        && data.targetType in ['doubt', 'answer', 'user']
+        && data.targetId is string && data.targetId.size() > 0 && data.targetId.size() <= 120
+        && (data.doubtId == null || data.doubtId is string)
+        && data.reason in ['spam', 'abuse', 'irrelevant', 'inappropriate', 'harassment', 'other']
+        && data.details is string && data.details.size() <= 1000
+        && data.status == 'open'
+        && data.createdAt == request.time;
+    }
+
+    // ---------- doubt forum: created via Cloud Functions (cooldown + duplicate checks) ----------
+    match /doubts/{doubtId} {
+      allow read: if signedIn() && (resource.data.hidden == false || resource.data.authorId == request.auth.uid || isAdmin());
+      allow update: if (isAdmin() && onlyFields(['hidden', 'status']))
+        || (signedIn() && resource.data.authorId == request.auth.uid && onlyFields(['status'])
+            && request.resource.data.status in ['open', 'answered', 'resolved']);
+      allow create, delete: if false;
+
+      match /answers/{answerId} {
+        allow read: if signedIn() && (resource.data.hidden == false || resource.data.authorId == request.auth.uid || isAdmin());
+        allow update: if isAdmin() && onlyFields(['hidden']);
+        allow create, delete: if false;
+      }
+    }
+  }
+}

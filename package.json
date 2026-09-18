@@ -1,0 +1,45 @@
+{
+  "name": "vidyapath-ai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json --noEmit && vite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "preview": "vite preview",
+    "seed": "tsx seed/seed.ts",
+    "set-admin": "tsx seed/set-admin.ts",
+    "test:rules": "vitest run --config tests/rules/vitest.config.ts",
+    "emulators": "firebase emulators:start --import=.emulator-data --export-on-exit",
+    "test": "vitest run",
+    "test:functions": "npm --prefix functions test",
+    "seed:check": "tsx seed/seed.ts --check",
+    "deploy:pages": "npm run typecheck && vite build --mode demo --base=/vidyapath-ai/ && cp dist/index.html dist/404.html && gh-pages -d dist",
+    "demo": "vite --mode demo"
+  },
+  "dependencies": {
+    "firebase": "^11.10.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^4.0.1",
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/node": "^22.15.0",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.5.0",
+    "dotenv": "^16.5.0",
+    "firebase-admin": "^13.4.0",
+    "firebase-tools": "^14.10.0",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.1.11",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  }
+}
