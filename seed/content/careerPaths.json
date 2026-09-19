@@ -1,0 +1,333 @@
+[
+  {
+    "id": "engineering",
+    "name": "Engineering",
+    "summary": "Design, build and improve machines, structures, software and systems that people rely on every day.",
+    "subjects": [
+      "Physics",
+      "Mathematics",
+      "Chemistry"
+    ],
+    "skills": [
+      "Problem solving",
+      "Analytical thinking",
+      "Design and modelling",
+      "Teamwork"
+    ],
+    "entranceRoutes": [
+      "JEE Main and JEE Advanced",
+      "State CETs",
+      "BITSAT"
+    ],
+    "exampleCareers": [
+      "Mechanical engineer",
+      "Civil engineer",
+      "Electrical engineer",
+      "Aerospace engineer"
+    ],
+    "preparation": [
+      "Strong Class 11-12 PCM foundation",
+      "Daily numerical practice",
+      "Attempt previous years' papers from Class 11"
+    ],
+    "order": 1
+  },
+  {
+    "id": "medicine",
+    "name": "Medicine",
+    "summary": "Diagnose, treat and prevent illness, and care for people across their lives.",
+    "subjects": [
+      "Biology",
+      "Chemistry",
+      "Physics"
+    ],
+    "skills": [
+      "Empathy",
+      "Memory and recall",
+      "Attention to detail",
+      "Resilience"
+    ],
+    "entranceRoutes": [
+      "NEET UG",
+      "AIIMS through NEET"
+    ],
+    "exampleCareers": [
+      "Doctor (MBBS)",
+      "Dentist",
+      "Surgeon",
+      "Public health specialist"
+    ],
+    "preparation": [
+      "Master NCERT Biology line by line",
+      "Regular mock tests",
+      "Build stamina for long study hours"
+    ],
+    "order": 2
+  },
+  {
+    "id": "computer-science",
+    "name": "Computer Science",
+    "summary": "Create software, algorithms and systems, from apps to artificial intelligence.",
+    "subjects": [
+      "Mathematics",
+      "Physics",
+      "Computer Science"
+    ],
+    "skills": [
+      "Logical reasoning",
+      "Programming",
+      "Abstraction",
+      "Continuous learning"
+    ],
+    "entranceRoutes": [
+      "JEE Main and Advanced",
+      "University entrance tests",
+      "Direct admission on Class 12 marks in some colleges"
+    ],
+    "exampleCareers": [
+      "Software developer",
+      "Cybersecurity analyst",
+      "Game developer",
+      "Cloud engineer"
+    ],
+    "preparation": [
+      "Learn one programming language early",
+      "Practice problem solving on coding platforms",
+      "Keep maths strong, especially discrete maths"
+    ],
+    "order": 3
+  },
+  {
+    "id": "data-science",
+    "name": "Data Science",
+    "summary": "Turn data into decisions using statistics, programming and domain knowledge.",
+    "subjects": [
+      "Mathematics",
+      "Statistics",
+      "Computer Science"
+    ],
+    "skills": [
+      "Statistics",
+      "Programming (Python)",
+      "Communication",
+      "Curiosity"
+    ],
+    "entranceRoutes": [
+      "Engineering entrance exams",
+      "Statistics and mathematics degree entrances",
+      "Post-graduate specialisation"
+    ],
+    "exampleCareers": [
+      "Data analyst",
+      "Machine learning engineer",
+      "Business intelligence analyst",
+      "Research scientist"
+    ],
+    "preparation": [
+      "Get comfortable with probability and statistics",
+      "Learn spreadsheets then Python",
+      "Work on small data projects"
+    ],
+    "order": 4
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "summary": "Shape how products, spaces and visuals look, feel and work for people.",
+    "subjects": [
+      "Any stream",
+      "Fine arts helpful",
+      "Mathematics for architecture"
+    ],
+    "skills": [
+      "Creativity",
+      "Visual thinking",
+      "Empathy for users",
+      "Sketching and prototyping"
+    ],
+    "entranceRoutes": [
+      "UCEED and CEED",
+      "NID DAT",
+      "NATA and JEE Paper 2 for architecture",
+      "NIFT entrance"
+    ],
+    "exampleCareers": [
+      "UX designer",
+      "Product designer",
+      "Architect",
+      "Graphic designer"
+    ],
+    "preparation": [
+      "Build a portfolio of projects",
+      "Practice observation and sketching daily",
+      "Study how everyday objects are designed"
+    ],
+    "order": 5
+  },
+  {
+    "id": "law",
+    "name": "Law",
+    "summary": "Interpret and apply the law to protect rights, resolve disputes and shape policy.",
+    "subjects": [
+      "Any stream",
+      "English",
+      "Social Science"
+    ],
+    "skills": [
+      "Reading and comprehension",
+      "Argumentation",
+      "Logical reasoning",
+      "Writing"
+    ],
+    "entranceRoutes": [
+      "CLAT",
+      "AILET",
+      "LSAT India"
+    ],
+    "exampleCareers": [
+      "Advocate",
+      "Corporate lawyer",
+      "Judge",
+      "Legal policy analyst"
+    ],
+    "preparation": [
+      "Read newspapers and editorials daily",
+      "Practice logical reasoning and legal aptitude",
+      "Join debate and moot court activities"
+    ],
+    "order": 6
+  },
+  {
+    "id": "research",
+    "name": "Research",
+    "summary": "Ask new questions and discover knowledge in science, mathematics or social fields.",
+    "subjects": [
+      "Physics",
+      "Chemistry",
+      "Mathematics",
+      "Biology"
+    ],
+    "skills": [
+      "Curiosity",
+      "Patience",
+      "Rigorous thinking",
+      "Scientific writing"
+    ],
+    "entranceRoutes": [
+      "IISER and IISc entrance (IAT)",
+      "KVPY-style scholarships and olympiads",
+      "JEE Advanced for IITs"
+    ],
+    "exampleCareers": [
+      "Scientist",
+      "University professor",
+      "Research and development engineer",
+      "Science communicator"
+    ],
+    "preparation": [
+      "Go deeper than the syllabus in one subject",
+      "Attempt olympiad problems",
+      "Read popular science and research summaries"
+    ],
+    "order": 7
+  },
+  {
+    "id": "commerce",
+    "name": "Commerce",
+    "summary": "Manage money, business and markets, from accounting to entrepreneurship finance.",
+    "subjects": [
+      "Mathematics",
+      "Economics",
+      "Accountancy"
+    ],
+    "skills": [
+      "Numeracy",
+      "Analytical thinking",
+      "Business awareness",
+      "Communication"
+    ],
+    "entranceRoutes": [
+      "CA Foundation",
+      "CUET for BCom and BBA",
+      "IPMAT"
+    ],
+    "exampleCareers": [
+      "Chartered accountant",
+      "Investment banker",
+      "Financial analyst",
+      "Company secretary"
+    ],
+    "preparation": [
+      "Keep arithmetic and algebra sharp",
+      "Follow business news",
+      "Learn basics of accounting early"
+    ],
+    "order": 8
+  },
+  {
+    "id": "defence",
+    "name": "Defence",
+    "summary": "Serve in the armed forces with leadership, discipline and technical skills.",
+    "subjects": [
+      "Physics",
+      "Mathematics",
+      "English"
+    ],
+    "skills": [
+      "Physical fitness",
+      "Leadership",
+      "Discipline",
+      "Decision making under pressure"
+    ],
+    "entranceRoutes": [
+      "NDA (after Class 12)",
+      "CDS (after graduation)",
+      "Technical entry schemes"
+    ],
+    "exampleCareers": [
+      "Army officer",
+      "Naval officer",
+      "Air Force pilot",
+      "Defence engineer"
+    ],
+    "preparation": [
+      "Maintain fitness routines",
+      "Practice general knowledge and current affairs",
+      "Prepare for SSB interviews with group activities"
+    ],
+    "order": 9
+  },
+  {
+    "id": "entrepreneurship",
+    "name": "Entrepreneurship",
+    "summary": "Build products and organisations that solve real problems and create jobs.",
+    "subjects": [
+      "Any stream",
+      "Mathematics helpful",
+      "Economics helpful"
+    ],
+    "skills": [
+      "Initiative",
+      "Risk assessment",
+      "Communication",
+      "Learning from failure"
+    ],
+    "entranceRoutes": [
+      "No fixed entrance; any degree works",
+      "Incubators and startup programmes",
+      "Business school entrances later (CAT)"
+    ],
+    "exampleCareers": [
+      "Startup founder",
+      "Social entrepreneur",
+      "Product manager",
+      "Small business owner"
+    ],
+    "preparation": [
+      "Start a small project or club initiative now",
+      "Learn to present ideas clearly",
+      "Study how businesses around you work"
+    ],
+    "order": 10
+  }
+]

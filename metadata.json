@@ -1,0 +1,6 @@
+{
+  "name": "VidyaPath AI",
+  "description": "NCERT learning, Problem Lab, AI guidance and progress tracking for Class 9 to 12.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -4,8 +4,10 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -p tsconfig.json --noEmit && vite build",
+    "dev": "tsx server.ts",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "build": "tsc -p tsconfig.json --noEmit && vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "start": "node dist/server.cjs",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "preview": "vite preview",
     "seed": "tsx seed/seed.ts",
@@ -19,15 +21,21 @@
     "demo": "vite --mode demo"
   },
   "dependencies": {
+    "@google/genai": "^2.23.0",
+    "@supabase/supabase-js": "^2.116.0",
+    "esbuild": "^0.28.2",
+    "express": "^5.2.1",
     "firebase": "^11.10.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
     "react-router-dom": "^6.30.0",
     "recharts": "^2.15.3"
   },
   "devDependencies": {
     "@firebase/rules-unit-testing": "^4.0.1",
     "@tailwindcss/vite": "^4.1.11",
+    "@types/express": "^5.0.6",
     "@types/node": "^22.15.0",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.7",

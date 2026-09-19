@@ -1,0 +1,971 @@
+[
+  {
+    "id": "10-mathematics-real-numbers-euclids-division-lemma-m1",
+    "topicId": "10-mathematics-real-numbers-euclids-division-lemma",
+    "chapterId": "10-mathematics-real-numbers",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "Dividing with a Remainder",
+    "description": "What the lemma says and why the remainder is always smaller than the divisor.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "The idea",
+        "body": "Divide 17 by 5: you get 3 groups of 5 and 2 left over. So 17 = 5 x 3 + 2. The leftover is always less than 5, otherwise you could make another group."
+      },
+      {
+        "type": "formula",
+        "heading": "The lemma",
+        "body": "a = bq + r, where 0 <= r < b"
+      },
+      {
+        "type": "keypoints",
+        "heading": "Remember",
+        "body": "q and r are unique\nr can be 0\nb must be positive"
+      },
+      {
+        "type": "example",
+        "heading": "Try it",
+        "body": "Write 58 in the form 7q + r. 58 = 7 x 8 + 2, so q = 8, r = 2."
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-real-numbers-euclids-division-lemma-m2",
+    "topicId": "10-mathematics-real-numbers-euclids-division-lemma",
+    "chapterId": "10-mathematics-real-numbers",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "Euclid's Algorithm for HCF",
+    "description": "Repeat the lemma until the remainder is zero to find the HCF fast.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Why it works",
+        "body": "Any common factor of a and b also divides r = a - bq. So HCF(a, b) = HCF(b, r), and the pair keeps getting smaller."
+      },
+      {
+        "type": "example",
+        "heading": "Worked example",
+        "body": "HCF(196, 38220): 38220 = 196 x 195 + 0. Remainder is already 0, so HCF = 196."
+      },
+      {
+        "type": "example",
+        "heading": "Longer chain",
+        "body": "HCF(867, 255): 867 = 255 x 3 + 102; 255 = 102 x 2 + 51; 102 = 51 x 2 + 0. HCF = 51."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Checklist",
+        "body": "Larger number first\nStop at remainder 0\nAnswer is the last divisor, not the last quotient"
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-m1",
+    "topicId": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic",
+    "chapterId": "10-mathematics-real-numbers",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "Prime Factorisation",
+    "description": "Break numbers into primes using a factor tree and see why the result is unique.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Building blocks",
+        "body": "Primes are the atoms of numbers. 360 = 2 x 2 x 2 x 3 x 3 x 5 = 2^3 x 3^2 x 5, and no other list of primes multiplies to 360."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Method",
+        "body": "Divide by the smallest prime repeatedly\nMove to the next prime when it stops dividing\nWrite the answer with exponents"
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "Factorise 1001: 1001 = 7 x 11 x 13."
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-m2",
+    "topicId": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic",
+    "chapterId": "10-mathematics-real-numbers",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "HCF and LCM from Primes",
+    "description": "Use prime factorisations to get HCF and LCM and check with the product rule.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "formula",
+        "heading": "Rules",
+        "body": "HCF: smallest power of each common prime\nLCM: largest power of every prime present\nHCF x LCM = a x b"
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "24 = 2^3 x 3, 36 = 2^2 x 3^2. HCF = 2^2 x 3 = 12. LCM = 2^3 x 3^2 = 72. Check 12 x 72 = 864 = 24 x 36."
+      },
+      {
+        "type": "text",
+        "heading": "Why 3^n never ends in 0",
+        "body": "A number ending in 0 needs both 2 and 5 as prime factors. 3^n has only 3s, so it never ends in 0."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Traps",
+        "body": "HCF uses the smallest powers\nThe product rule is for two numbers only"
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-polynomials-zeros-and-coefficients-m1",
+    "topicId": "10-mathematics-polynomials-zeros-and-coefficients",
+    "chapterId": "10-mathematics-polynomials",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "Zeros of a Polynomial",
+    "description": "What a zero means algebraically and on the graph.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Definition",
+        "body": "k is a zero of p(x) if p(k) = 0. For p(x) = x^2 - 4, both 2 and -2 are zeros because they make p(x) zero."
+      },
+      {
+        "type": "text",
+        "heading": "On the graph",
+        "body": "The curve of a quadratic is a parabola. Its zeros are where it cuts the x-axis. It can cut twice, touch once, or never meet the axis."
+      },
+      {
+        "type": "example",
+        "heading": "Check",
+        "body": "Is 3 a zero of x^2 - 2x - 3? p(3) = 9 - 6 - 3 = 0. Yes."
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-polynomials-zeros-and-coefficients-m2",
+    "topicId": "10-mathematics-polynomials-zeros-and-coefficients",
+    "chapterId": "10-mathematics-polynomials",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "Sum and Product of Zeros",
+    "description": "The relations between zeros and coefficients, and how to build a polynomial from its zeros.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "formula",
+        "heading": "Relations",
+        "body": "For ax^2 + bx + c: alpha + beta = -b/a and alpha x beta = c/a"
+      },
+      {
+        "type": "example",
+        "heading": "Verify",
+        "body": "3x^2 - 12x + 9: zeros 1 and 3. Sum 4 = 12/3, product 3 = 9/3."
+      },
+      {
+        "type": "example",
+        "heading": "Build",
+        "body": "Zeros 2 and -5: sum -3, product -10. Polynomial x^2 + 3x - 10."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Watch out",
+        "body": "The minus sign in -b/a\na is the coefficient of x^2, not of x"
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-quadratic-equations-standard-form-m1",
+    "topicId": "10-mathematics-quadratic-equations-standard-form",
+    "chapterId": "10-mathematics-quadratic-equations",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "Recognising a Quadratic",
+    "description": "Rearrange any equation into ax^2 + bx + c = 0 and read the coefficients.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Standard form",
+        "body": "A quadratic equation has degree 2 once simplified. Expand brackets, move everything to one side, and combine like terms before deciding."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "(x - 2)(x + 1) = x^2 - 3 becomes x^2 - x - 2 = x^2 - 3, so -x + 1 = 0. The square terms cancel: not a quadratic."
+      },
+      {
+        "type": "example",
+        "heading": "Coefficients",
+        "body": "4x^2 = 7x - 3 becomes 4x^2 - 7x + 3 = 0, so a = 4, b = -7, c = 3."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Rule",
+        "body": "a is never 0 in a quadratic\nRead b and c only from the standard form"
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-quadratic-equations-standard-form-m2",
+    "topicId": "10-mathematics-quadratic-equations-standard-form",
+    "chapterId": "10-mathematics-quadratic-equations",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "Forming Quadratics from Word Problems",
+    "description": "Turn a story into an equation by choosing the unknown well.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Method",
+        "body": "Let the unknown be the quantity asked for. Translate each sentence into an expression. Set up the equality the problem describes. Rearrange to standard form."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "The product of two consecutive positive integers is 306. Let the smaller be x: x(x + 1) = 306, so x^2 + x - 306 = 0."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "A train covers 480 km at speed x km/h. If it were 8 km/h slower it would take 3 h more: 480/(x - 8) - 480/x = 3, which simplifies to x^2 - 8x - 1280 = 0."
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-quadratic-equations-solving-by-factorisation-m1",
+    "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+    "chapterId": "10-mathematics-quadratic-equations",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "Splitting the Middle Term",
+    "description": "The core factorisation technique, step by step.",
+    "estimatedMinutes": 20,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "The technique",
+        "body": "For ax^2 + bx + c, find two numbers whose product is a x c and whose sum is b. Rewrite bx as the sum of those two terms, then factor by grouping."
+      },
+      {
+        "type": "example",
+        "heading": "Example with a = 1",
+        "body": "x^2 + 5x + 6: product 6, sum 5 gives 2 and 3. (x + 2)(x + 3) = 0, so x = -2 or -3."
+      },
+      {
+        "type": "example",
+        "heading": "Example with a not 1",
+        "body": "6x^2 + 7x - 3: product -18, sum 7 gives 9 and -2. 6x^2 + 9x - 2x - 3 = 3x(2x + 3) - 1(2x + 3) = (3x - 1)(2x + 3). x = 1/3 or -3/2."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Signs",
+        "body": "Product positive, sum positive: both positive\nProduct positive, sum negative: both negative\nProduct negative: one of each, larger magnitude takes the sign of b"
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-quadratic-equations-solving-by-factorisation-m2",
+    "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+    "chapterId": "10-mathematics-quadratic-equations",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "The Quadratic Formula",
+    "description": "Solve any quadratic with the formula and know when to reach for it.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "formula",
+        "heading": "Formula",
+        "body": "x = [-b +/- sqrt(b^2 - 4ac)] / 2a"
+      },
+      {
+        "type": "text",
+        "heading": "When to use it",
+        "body": "Use the formula when the middle term will not split neatly, or when the roots are irrational. It always works when b^2 - 4ac >= 0."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "x^2 - 4x + 1 = 0: x = [4 +/- sqrt(16 - 4)] / 2 = 2 +/- sqrt 3."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Common slips",
+        "body": "Write -b, then square b separately\nDivide the whole numerator by 2a\nSimplify the square root before dividing"
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-quadratic-equations-solving-by-factorisation-m3",
+    "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+    "chapterId": "10-mathematics-quadratic-equations",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "Word Problems and Checking Roots",
+    "description": "Set up, solve, then reject roots that make no sense.",
+    "estimatedMinutes": 25,
+    "order": 3,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Reject impossible roots",
+        "body": "Lengths, ages, counts and speeds cannot be negative or fractional when the story says they are whole. Always check both roots against the situation."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "A rectangle has area 60 and its length is 7 more than its breadth. b(b + 7) = 60 gives b^2 + 7b - 60 = 0, (b + 12)(b - 5) = 0. b = -12 is rejected; breadth 5, length 12."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "Two numbers differ by 3 and their product is 54: x(x + 3) = 54, x^2 + 3x - 54 = 0, (x + 9)(x - 6) = 0, so 6 and 9, or -9 and -6 if negatives are allowed."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Always",
+        "body": "Substitute each root back into the original equation\nAnswer the question asked, not just x"
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-quadratic-equations-nature-of-roots-m1",
+    "topicId": "10-mathematics-quadratic-equations-nature-of-roots",
+    "chapterId": "10-mathematics-quadratic-equations",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "The Discriminant",
+    "description": "Predict the type of roots without solving.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "formula",
+        "heading": "Discriminant",
+        "body": "D = b^2 - 4ac"
+      },
+      {
+        "type": "keypoints",
+        "heading": "Three cases",
+        "body": "D > 0: two distinct real roots\nD = 0: two equal real roots\nD < 0: no real roots"
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "3x^2 - 2x + 1/3 = 0: D = 4 - 4 = 0, equal roots x = 1/3."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "x^2 + x + 1 = 0: D = 1 - 4 = -3, no real roots."
+      }
+    ]
+  },
+  {
+    "id": "10-mathematics-quadratic-equations-nature-of-roots-m2",
+    "topicId": "10-mathematics-quadratic-equations-nature-of-roots",
+    "chapterId": "10-mathematics-quadratic-equations",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "title": "Finding Unknown Coefficients",
+    "description": "Use D = 0 to find a parameter that gives equal roots.",
+    "estimatedMinutes": 15,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Method",
+        "body": "Write D in terms of the unknown, set it equal to 0, solve the resulting equation. Check that a is still non-zero."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "2x^2 + kx + 3 = 0 has equal roots: k^2 - 24 = 0, so k = +/- 2 sqrt 6."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "kx(x - 2) + 6 = 0 has equal roots: kx^2 - 2kx + 6 = 0, D = 4k^2 - 24k = 0, so k = 6 (k = 0 rejected)."
+      }
+    ]
+  },
+  {
+    "id": "9-physics-motion-equations-of-motion-m1",
+    "topicId": "9-physics-motion-equations-of-motion",
+    "chapterId": "9-physics-motion",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "title": "Velocity and Time",
+    "description": "The first equation of motion and the meaning of acceleration.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Acceleration",
+        "body": "Acceleration is the change in velocity per second. If a car goes from 10 m/s to 20 m/s in 5 s, its velocity changed by 10 m/s over 5 s, so a = 2 m/s^2."
+      },
+      {
+        "type": "formula",
+        "heading": "First equation",
+        "body": "v = u + at"
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "u = 0, a = 4 m/s^2, t = 6 s: v = 0 + 24 = 24 m/s."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Units",
+        "body": "Velocity in m/s\nAcceleration in m/s^2\nTime in s\nConvert km/h by multiplying by 5/18"
+      }
+    ]
+  },
+  {
+    "id": "9-physics-motion-equations-of-motion-m2",
+    "topicId": "9-physics-motion-equations-of-motion",
+    "chapterId": "9-physics-motion",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "title": "Displacement Equations",
+    "description": "The second and third equations and how to choose between them.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "formula",
+        "heading": "Equations",
+        "body": "s = ut + (1/2)at^2\nv^2 = u^2 + 2as"
+      },
+      {
+        "type": "text",
+        "heading": "Choosing",
+        "body": "List what you know and what you want. If time is not involved, use v^2 = u^2 + 2as. If final velocity is not involved, use s = ut + (1/2)at^2."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "A ball dropped from rest falls for 3 s (a = 10 m/s^2): s = 0 + 0.5 x 10 x 9 = 45 m."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "A bike at 15 m/s brakes at -3 m/s^2 to rest: 0 = 225 + 2(-3)s, so s = 37.5 m."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Signs",
+        "body": "Choose the direction of motion as positive\nRetardation gives negative a"
+      }
+    ]
+  },
+  {
+    "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-m1",
+    "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+    "chapterId": "10-chemistry-chemical-reactions-and-equations",
+    "subjectId": "chemistry",
+    "classLevel": 10,
+    "title": "Writing and Balancing Equations",
+    "description": "From word equation to balanced symbol equation with states.",
+    "estimatedMinutes": 20,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Why balance",
+        "body": "Atoms rearrange in a reaction but none appear or vanish. A balanced equation shows this with equal atom counts on both sides."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Steps",
+        "body": "Write correct formulas\nCount atoms of each element\nAdjust coefficients, starting with the element in the fewest formulas\nBalance H and O last\nRecheck everything"
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "Zn + HCl -> ZnCl2 + H2. Cl: 1 vs 2, so 2HCl. Now H: 2 vs 2. Balanced: Zn + 2HCl -> ZnCl2 + H2."
+      },
+      {
+        "type": "example",
+        "heading": "Example",
+        "body": "C3H8 + O2 -> CO2 + H2O. C: 3CO2. H: 4H2O. O on right: 6 + 4 = 10, so 5O2. Balanced: C3H8 + 5O2 -> 3CO2 + 4H2O."
+      }
+    ]
+  },
+  {
+    "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-m2",
+    "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+    "chapterId": "10-chemistry-chemical-reactions-and-equations",
+    "subjectId": "chemistry",
+    "classLevel": 10,
+    "title": "Types of Reactions",
+    "description": "Combination, decomposition, displacement, double displacement and redox with everyday examples.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Combination and decomposition",
+        "body": "Combination: two substances form one (CaO + H2O -> Ca(OH)2). Decomposition: one breaks into several, often by heat, light or electricity (2H2O -> 2H2 + O2 by electrolysis)."
+      },
+      {
+        "type": "text",
+        "heading": "Displacement",
+        "body": "A more reactive element pushes out a less reactive one: Fe + CuSO4 -> FeSO4 + Cu. The blue solution turns green."
+      },
+      {
+        "type": "text",
+        "heading": "Double displacement and redox",
+        "body": "Ions swap partners: Na2SO4 + BaCl2 -> BaSO4 + 2NaCl (white precipitate). In redox one substance gains oxygen (oxidised) while another loses it (reduced)."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Spotting them",
+        "body": "Two in, one out: combination\nOne in, many out: decomposition\nElement swaps with element: displacement\nIons swap: double displacement"
+      }
+    ]
+  },
+  {
+    "id": "10-physics-light-reflection-spherical-mirrors-m1",
+    "topicId": "10-physics-light-reflection-spherical-mirrors",
+    "chapterId": "10-physics-light-reflection-and-refraction",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 1: Laws of Reflection and Spherical Mirrors",
+    "description": "Understand converging concave and diverging convex mirrors, focal point, and ray tracing rules.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Core Principle",
+        "body": "When light rays hit a smooth curved mirror surface, each individual ray strictly obeys the law of reflection (i = r). A concave mirror curves inwards like a cave, focusing parallel incident rays into a real focal point in front of it. A convex mirror curves outwards, causing parallel rays to diverge as if originating from a focal point behind the mirror."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Ray Tracing Rules",
+        "body": "1. A ray parallel to the principal axis passes through (or appears to diverge from) the principal focus after reflection.\n2. A ray passing through the center of curvature retraces its path back along the same normal line.\n3. A ray directed towards the pole reflects symmetrically at the same angle to the principal axis."
+      },
+      {
+        "type": "formula",
+        "heading": "Fundamental Relationship",
+        "body": "f = R / 2\nFor concave mirror: f < 0, R < 0\nFor convex mirror: f > 0, R > 0"
+      }
+    ]
+  },
+  {
+    "id": "10-physics-light-reflection-spherical-mirrors-m2",
+    "topicId": "10-physics-light-reflection-spherical-mirrors",
+    "chapterId": "10-physics-light-reflection-and-refraction",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 2: Mirror Formula & Numerical Problem Solving",
+    "description": "Master Cartesian coordinate sign conventions, image calculations, and magnification.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Cartesian Sign Convention",
+        "body": "Always take the Pole (P) as the origin (0,0). All distances measured in the direction of incident light (to the right) are taken as positive (+), while distances measured against incident light (to the left) are negative (-). The heights measured upward normal to the principal axis are positive (+), and downward are negative (-)."
+      },
+      {
+        "type": "formula",
+        "heading": "The Mirror Equation",
+        "body": "1/f = 1/v + 1/u\nm = h'/h = -v/u"
+      },
+      {
+        "type": "example",
+        "heading": "Class 10 Board Example",
+        "body": "An object 4 cm in size is placed at 25 cm in front of a concave mirror of focal length 15 cm. Find image distance: 1/v = 1/(-15) - 1/(-25) = -1/15 + 1/25 = -2/75 => v = -37.5 cm. Height h' = -(-37.5/-25)*4 = -6 cm (real, inverted, magnified)."
+      }
+    ]
+  },
+  {
+    "id": "10-physics-light-refraction-lenses-power-m1",
+    "topicId": "10-physics-light-refraction-lenses-power",
+    "chapterId": "10-physics-light-reflection-and-refraction",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 1: Snell's Law & Refractive Index",
+    "description": "How light bends across optical boundaries, absolute and relative refractive indices.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Mechanism of Refraction",
+        "body": "Light slows down when passing from an optically rarer medium (like air) into an optically denser medium (like water or glass). To minimize travel time (Fermat's principle), the wave front changes direction, bending toward the normal. When speeding up from denser to rarer, it bends away from the normal."
+      },
+      {
+        "type": "formula",
+        "heading": "Snell's Mathematical Law",
+        "body": "n1 * sin(i) = n2 * sin(r)\nRefractive index of glass ~ 1.5, water ~ 1.33, diamond ~ 2.42"
+      }
+    ]
+  },
+  {
+    "id": "10-physics-light-refraction-lenses-power-m2",
+    "topicId": "10-physics-light-refraction-lenses-power",
+    "chapterId": "10-physics-light-reflection-and-refraction",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 2: Lens Formula & Dioptres Power",
+    "description": "Calculate real and virtual images for convex/concave lenses and combination optical power.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Lens Characteristics",
+        "body": "A convex lens is thicker at the center and thinner at the edges. It converges incident parallel rays to a real focus on the opposite side (f > 0). A concave lens is thinner at the center and diverges rays, yielding a virtual focal point (f < 0)."
+      },
+      {
+        "type": "formula",
+        "heading": "Lenses Master Formulae",
+        "body": "1/f = 1/v - 1/u\nm = v/u\nP = 1/f(m)\nP_net = P1 + P2"
+      }
+    ]
+  },
+  {
+    "id": "10-physics-human-eye-defects-of-vision-m1",
+    "topicId": "10-physics-human-eye-defects-of-vision",
+    "chapterId": "10-physics-the-human-eye-and-the-colourful-world",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 1: Optical Anatomy & Accommodation",
+    "description": "Structure of the eye: Cornea, Iris, Pupil, Crystalline Lens, Retina, and Ciliary Muscles.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "How We See",
+        "body": "Light enters the eye through the cornea, passes through the pupil whose diameter is actively regulated by the muscular iris. The flexible crystalline lens forms a real inverted image onto the retina, which sends electrical impulses to the brain via the optic nerve."
+      },
+      {
+        "type": "keypoints",
+        "heading": "Key Anatomy Checklist",
+        "body": "• Cornea: Primary refraction boundary\n• Iris: Colored diaphragm adjusting light ingress\n• Ciliary muscles: Change lens curvature for focal accommodation\n• Retina: Photoreceptor screen (Rods & Cones)"
+      }
+    ]
+  },
+  {
+    "id": "10-physics-human-eye-defects-of-vision-m2",
+    "topicId": "10-physics-human-eye-defects-of-vision",
+    "chapterId": "10-physics-the-human-eye-and-the-colourful-world",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 2: Defects of Vision & Lens Corrections",
+    "description": "Myopia, Hypermetropia, Astigmatism, Presbyopia, and corrective ray diagrams.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Defects and Remedies",
+        "body": "When the eyeball is too long, rays from distant objects converge before reaching the retina: Myopia, solved by a diverging concave lens. When the eyeball is too short, near rays converge behind the retina: Hypermetropia, solved by a converging convex lens."
+      }
+    ]
+  },
+  {
+    "id": "10-physics-atmospheric-refraction-dispersion-m1",
+    "topicId": "10-physics-atmospheric-refraction-dispersion",
+    "chapterId": "10-physics-the-human-eye-and-the-colourful-world",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 1: Glass Prism & Rainbow Formation",
+    "description": "Prism deviation, angular dispersion, and rain drop internal reflection.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Newton's Experiment",
+        "body": "Isaac Newton first used a glass prism to split sunlight into a spectrum. Placing an inverted second prism in front of the spectrum recombined all colors back into white light, proving white light is composed of 7 spectral colors."
+      }
+    ]
+  },
+  {
+    "id": "10-physics-atmospheric-refraction-dispersion-m2",
+    "topicId": "10-physics-atmospheric-refraction-dispersion",
+    "chapterId": "10-physics-the-human-eye-and-the-colourful-world",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 2: Atmospheric Wonders & Scattering",
+    "description": "Twinkling stars, atmospheric delay, blue skies, and crimson sunsets.",
+    "estimatedMinutes": 15,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Scattering Physics",
+        "body": "Molecules of N2 and O2 in the upper atmosphere have sizes smaller than the wavelength of visible light. They scatter blue light much more intensely than red. In space where there is no atmosphere, astronauts see a pitch-black sky."
+      }
+    ]
+  },
+  {
+    "id": "10-physics-electricity-ohms-law-resistance-m1",
+    "topicId": "10-physics-electricity-ohms-law-resistance",
+    "chapterId": "10-physics-electricity",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 1: Charge, Current and Potential Difference",
+    "description": "Charge units, battery electromotive force, and measuring instruments.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "The Circuit Loop",
+        "body": "Electric current flows from the positive terminal to the negative terminal of a cell (conventional direction), which is opposite to the actual motion of electrons. The potential difference maintained by chemical reactions inside the cell does work to push charges around the conducting loop."
+      },
+      {
+        "type": "formula",
+        "heading": "Primary Definitions",
+        "body": "I = Q / t [Amperes]\nV = W / Q [Volts]"
+      }
+    ]
+  },
+  {
+    "id": "10-physics-electricity-ohms-law-resistance-m2",
+    "topicId": "10-physics-electricity-ohms-law-resistance",
+    "chapterId": "10-physics-electricity",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 2: Ohm's Law and Resistivity Calculations",
+    "description": "Derive Ohm's law, V-I slope, and factors affecting conductor resistance.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Resistance in Real Wires",
+        "body": "As electrons drift through metallic lattice, they collide with oscillating metal ions, creating resistance. Thick short wires have minimal resistance, making them ideal for transmission cables."
+      },
+      {
+        "type": "formula",
+        "heading": "Geometry Equation",
+        "body": "R = rho * L / A\nUnit of rho: Ohm * meter (Omega * m)"
+      }
+    ]
+  },
+  {
+    "id": "10-physics-electricity-heating-effect-electric-power-m1",
+    "topicId": "10-physics-electricity-heating-effect-electric-power",
+    "chapterId": "10-physics-electricity",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 1: Joule's Law of Heating & Safety Fuse",
+    "description": "Heat dissipation mechanism, heating appliances, and short-circuit protection.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Thermal Dissipation",
+        "body": "When electrical potential drives charges through high-resistance elements (like Nichrome), collisions convert electrical energy into heat. Electric heaters, kettles, and irons exploit this to provide controlled thermal output."
+      }
+    ]
+  },
+  {
+    "id": "10-physics-electricity-heating-effect-electric-power-m2",
+    "topicId": "10-physics-electricity-heating-effect-electric-power",
+    "chapterId": "10-physics-electricity",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 2: Electrical Power & Commercial Billing",
+    "description": "Watt ratings, appliance energy calculation, and utility unit tariffs.",
+    "estimatedMinutes": 15,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Commercial Energy Billing",
+        "body": "Utility electricity meters measure energy in kilowatt-hours (kWh). 1 kWh corresponds to the consumption of an appliance consuming 1000 Joules every second continuously for 1 hour."
+      }
+    ]
+  },
+  {
+    "id": "10-physics-magnetic-field-and-field-lines-m1",
+    "topicId": "10-physics-magnetic-field-and-field-lines",
+    "chapterId": "10-physics-magnetic-effects-of-electric-current",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 1: Field Lines & The Oersted Discovery",
+    "description": "Bar magnets, compass needles, field line properties, and non-intersection proof.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Magnetic Fields in Space",
+        "body": "In 1820, Hans Christian Oersted noticed a compass needle deflecting when placed near a current-carrying metallic wire. This was the first empirical proof connecting electricity and magnetism into the unified force of electromagnetism."
+      }
+    ]
+  },
+  {
+    "id": "10-physics-magnetic-field-and-field-lines-m2",
+    "topicId": "10-physics-magnetic-field-and-field-lines",
+    "chapterId": "10-physics-magnetic-effects-of-electric-current",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 2: Solenoids & Electromagnets",
+    "description": "Helical coils, core permeability, and creating switchable industrial magnets.",
+    "estimatedMinutes": 15,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Solenoid Physics",
+        "body": "When current flows through multiple circular loops wound tightly into a cylinder, fields from individual turns add constructively inside the core while canceling outside. An iron rod inserted in the core becomes a powerful electromagnet."
+      }
+    ]
+  },
+  {
+    "id": "10-physics-electromagnetic-induction-and-motor-m1",
+    "topicId": "10-physics-electromagnetic-induction-and-motor",
+    "chapterId": "10-physics-magnetic-effects-of-electric-current",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 1: Magnetic Force & The Electric Motor",
+    "description": "Lorentz magnetic force, coil torque, split rings, and commercial motor efficiency.",
+    "estimatedMinutes": 20,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "The Motor Principle",
+        "body": "When an electric current flows through a rectangular coil placed in a magnetic field, the two opposite arms experience equal and opposite perpendicular forces given by Fleming's Left-Hand Rule, setting up a continuous rotational torque."
+      }
+    ]
+  },
+  {
+    "id": "10-physics-electromagnetic-induction-and-motor-m2",
+    "topicId": "10-physics-electromagnetic-induction-and-motor",
+    "chapterId": "10-physics-magnetic-effects-of-electric-current",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "title": "Module 2: Domestic Electric Circuits & Earthing",
+    "description": "Live, neutral, earth wires, fuse ratings, and short-circuit prevention.",
+    "estimatedMinutes": 15,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Household Safety",
+        "body": "Household circuits are wired in parallel so that every appliance receives the full 220 V mains voltage and can be switched independently without disrupting other rooms. The green earth wire provides a low-resistance path straight into a copper plate buried deep in the ground."
+      }
+    ]
+  },
+  {
+    "id": "9-physics-force-and-laws-of-motion-newtons-laws-m1",
+    "topicId": "9-physics-force-and-laws-of-motion-newtons-laws",
+    "chapterId": "9-physics-force-and-laws-of-motion",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "title": "Module 1: Inertia, Momentum and Newton's Second Law",
+    "description": "Concept of inertia, momentum definitions, and F = ma derivations.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "The Origin of Force",
+        "body": "Galileo realized that an object in motion does not need a continuous push to stay in motion; friction is the hidden force stopping everyday objects. Newton codified this into his first two laws."
+      }
+    ]
+  },
+  {
+    "id": "9-physics-gravitation-universal-law-and-free-fall-m1",
+    "topicId": "9-physics-gravitation-universal-law-and-free-fall",
+    "chapterId": "9-physics-gravitation",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "title": "Module 1: Gravitation & Free Fall Dynamics",
+    "description": "Universal inverse-square law, Cavendish experiment, and calculating g.",
+    "estimatedMinutes": 15,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Gravity Holds the Universe Together",
+        "body": "From the fall of an apple to the elliptical orbit of planets around the sun and the tidal pull of the moon, one universal law governs all celestial and terrestrial attraction."
+      }
+    ]
+  },
+  {
+    "id": "11-physics-motion-in-a-straight-line-kinematics-m1",
+    "topicId": "11-physics-motion-in-a-straight-line-kinematics",
+    "chapterId": "11-physics-motion-in-a-straight-line",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "title": "Module 1: 1D Calculus Kinematics (JEE / NEET Focus)",
+    "description": "Differentiate displacement polynomials, integrate variable accelerations, and analyze v-t slopes.",
+    "estimatedMinutes": 20,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Continuous Motion Analysis",
+        "body": "In advanced competitive physics, acceleration is rarely constant. Whether analyzing air drag where a = -k*v or spring restoration where a = -omega^2*x, differentiation and integration connect position, velocity, and time seamlessly."
+      }
+    ]
+  },
+  {
+    "id": "12-physics-electric-charges-and-fields-coulombs-law-gauss-m1",
+    "topicId": "12-physics-electric-charges-and-fields-coulombs-law-gauss",
+    "chapterId": "12-physics-electric-charges-and-fields",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "title": "Module 1: Coulomb's Vector Law & Electric Dipoles",
+    "description": "Coulomb vector form, dipole axial/equatorial fields, and dipole torque dynamics.",
+    "estimatedMinutes": 20,
+    "order": 1,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Electrostatic Field Vectors",
+        "body": "Electric field lines originate on positive charges and terminate on negative charges. They provide a geometric visualization of field intensity (line density) and direction (tangent)."
+      }
+    ]
+  },
+  {
+    "id": "12-physics-electric-charges-and-fields-coulombs-law-gauss-m2",
+    "topicId": "12-physics-electric-charges-and-fields-coulombs-law-gauss",
+    "chapterId": "12-physics-electric-charges-and-fields",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "title": "Module 2: Gauss's Law & Symmetric Charge Distributions",
+    "description": "Gaussian surfaces, flux integration, infinite wire, and conducting sheet fields.",
+    "estimatedMinutes": 20,
+    "order": 2,
+    "blocks": [
+      {
+        "type": "text",
+        "heading": "Power of Gauss's Law",
+        "body": "For high-symmetry distributions (cylindrical, planar, spherical), Gauss's theorem replaces complicated Coulomb vector integrals with a single scalar equation relating flux to enclosed charge."
+      }
+    ]
+  }
+]

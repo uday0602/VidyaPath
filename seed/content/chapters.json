@@ -1,0 +1,1893 @@
+[
+  {
+    "id": "9-mathematics-number-systems",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Number Systems",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-polynomials",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Polynomials",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-coordinate-geometry",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Coordinate Geometry",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-linear-equations-in-two-variables",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Linear Equations in Two Variables",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-introduction-to-euclid-s-geometry",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Introduction to Euclid's Geometry",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-lines-and-angles",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Lines and Angles",
+    "order": 6,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-triangles",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Triangles",
+    "order": 7,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-quadrilaterals",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Quadrilaterals",
+    "order": 8,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-circles",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Circles",
+    "order": 9,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-heron-s-formula",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Heron's Formula",
+    "order": 10,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-surface-areas-and-volumes",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Surface Areas and Volumes",
+    "order": 11,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-mathematics-statistics",
+    "subjectId": "mathematics",
+    "classLevel": 9,
+    "name": "Statistics",
+    "order": 12,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-physics-motion",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "name": "Motion",
+    "order": 1,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-physics-force-and-laws-of-motion",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "name": "Force and Laws of Motion",
+    "order": 2,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-physics-gravitation",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "name": "Gravitation",
+    "order": 3,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-physics-work-and-energy",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "name": "Work and Energy",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-physics-sound",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "name": "Sound",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-chemistry-matter-in-our-surroundings",
+    "subjectId": "chemistry",
+    "classLevel": 9,
+    "name": "Matter in Our Surroundings",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-chemistry-is-matter-around-us-pure",
+    "subjectId": "chemistry",
+    "classLevel": 9,
+    "name": "Is Matter Around Us Pure",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-chemistry-atoms-and-molecules",
+    "subjectId": "chemistry",
+    "classLevel": 9,
+    "name": "Atoms and Molecules",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-chemistry-structure-of-the-atom",
+    "subjectId": "chemistry",
+    "classLevel": 9,
+    "name": "Structure of the Atom",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-biology-the-fundamental-unit-of-life",
+    "subjectId": "biology",
+    "classLevel": 9,
+    "name": "The Fundamental Unit of Life",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-biology-tissues",
+    "subjectId": "biology",
+    "classLevel": 9,
+    "name": "Tissues",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-biology-improvement-in-food-resources",
+    "subjectId": "biology",
+    "classLevel": 9,
+    "name": "Improvement in Food Resources",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "9-social_science-the-french-revolution",
+    "subjectId": "social_science",
+    "classLevel": 9,
+    "name": "The French Revolution",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-social_science-india-size-and-location",
+    "subjectId": "social_science",
+    "classLevel": 9,
+    "name": "India Size and Location",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-social_science-what-is-democracy-why-democracy",
+    "subjectId": "social_science",
+    "classLevel": 9,
+    "name": "What is Democracy Why Democracy",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-social_science-the-story-of-village-palampur",
+    "subjectId": "social_science",
+    "classLevel": 9,
+    "name": "The Story of Village Palampur",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-english-the-fun-they-had",
+    "subjectId": "english",
+    "classLevel": 9,
+    "name": "The Fun They Had",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-english-the-sound-of-music",
+    "subjectId": "english",
+    "classLevel": 9,
+    "name": "The Sound of Music",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-english-the-little-girl",
+    "subjectId": "english",
+    "classLevel": 9,
+    "name": "The Little Girl",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "9-english-a-truly-beautiful-mind",
+    "subjectId": "english",
+    "classLevel": 9,
+    "name": "A Truly Beautiful Mind",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "10-mathematics-real-numbers",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Real Numbers",
+    "order": 1,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-polynomials",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Polynomials",
+    "order": 2,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-pair-of-linear-equations-in-two-variables",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Pair of Linear Equations in Two Variables",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-quadratic-equations",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Quadratic Equations",
+    "order": 4,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-arithmetic-progressions",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Arithmetic Progressions",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-triangles",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Triangles",
+    "order": 6,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-coordinate-geometry",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Coordinate Geometry",
+    "order": 7,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-introduction-to-trigonometry",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Introduction to Trigonometry",
+    "order": 8,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-some-applications-of-trigonometry",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Some Applications of Trigonometry",
+    "order": 9,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-circles",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Circles",
+    "order": 10,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-areas-related-to-circles",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Areas Related to Circles",
+    "order": 11,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-surface-areas-and-volumes",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Surface Areas and Volumes",
+    "order": 12,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-statistics",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Statistics",
+    "order": 13,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-mathematics-probability",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "name": "Probability",
+    "order": 14,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "10-physics-light-reflection-and-refraction",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "name": "Light Reflection and Refraction",
+    "order": 1,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-physics-the-human-eye-and-the-colourful-world",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "name": "The Human Eye and the Colourful World",
+    "order": 2,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-physics-electricity",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "name": "Electricity",
+    "order": 3,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-physics-magnetic-effects-of-electric-current",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "name": "Magnetic Effects of Electric Current",
+    "order": 4,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-chemistry-chemical-reactions-and-equations",
+    "subjectId": "chemistry",
+    "classLevel": 10,
+    "name": "Chemical Reactions and Equations",
+    "order": 1,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-chemistry-acids-bases-and-salts",
+    "subjectId": "chemistry",
+    "classLevel": 10,
+    "name": "Acids Bases and Salts",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-chemistry-metals-and-non-metals",
+    "subjectId": "chemistry",
+    "classLevel": 10,
+    "name": "Metals and Non-metals",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-chemistry-carbon-and-its-compounds",
+    "subjectId": "chemistry",
+    "classLevel": 10,
+    "name": "Carbon and its Compounds",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-biology-life-processes",
+    "subjectId": "biology",
+    "classLevel": 10,
+    "name": "Life Processes",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-biology-control-and-coordination",
+    "subjectId": "biology",
+    "classLevel": 10,
+    "name": "Control and Coordination",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-biology-how-do-organisms-reproduce",
+    "subjectId": "biology",
+    "classLevel": 10,
+    "name": "How do Organisms Reproduce",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-biology-heredity",
+    "subjectId": "biology",
+    "classLevel": 10,
+    "name": "Heredity",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-biology-our-environment",
+    "subjectId": "biology",
+    "classLevel": 10,
+    "name": "Our Environment",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "10-social_science-the-rise-of-nationalism-in-europe",
+    "subjectId": "social_science",
+    "classLevel": 10,
+    "name": "The Rise of Nationalism in Europe",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "10-social_science-resources-and-development",
+    "subjectId": "social_science",
+    "classLevel": 10,
+    "name": "Resources and Development",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "10-social_science-power-sharing",
+    "subjectId": "social_science",
+    "classLevel": 10,
+    "name": "Power Sharing",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "10-social_science-development",
+    "subjectId": "social_science",
+    "classLevel": 10,
+    "name": "Development",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "10-english-a-letter-to-god",
+    "subjectId": "english",
+    "classLevel": 10,
+    "name": "A Letter to God",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "10-english-nelson-mandela-long-walk-to-freedom",
+    "subjectId": "english",
+    "classLevel": 10,
+    "name": "Nelson Mandela Long Walk to Freedom",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "10-english-two-stories-about-flying",
+    "subjectId": "english",
+    "classLevel": 10,
+    "name": "Two Stories about Flying",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "10-english-from-the-diary-of-anne-frank",
+    "subjectId": "english",
+    "classLevel": 10,
+    "name": "From the Diary of Anne Frank",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board"
+    ]
+  },
+  {
+    "id": "11-physics-units-and-measurements",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "Units and Measurements",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-physics-motion-in-a-straight-line",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "Motion in a Straight Line",
+    "order": 2,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-physics-motion-in-a-plane",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "Motion in a Plane",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-physics-laws-of-motion",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "Laws of Motion",
+    "order": 4,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-physics-work-energy-and-power",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "Work Energy and Power",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-physics-system-of-particles-and-rotational-motion",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "System of Particles and Rotational Motion",
+    "order": 6,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-physics-gravitation",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "Gravitation",
+    "order": 7,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-physics-mechanical-properties-of-solids",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "Mechanical Properties of Solids",
+    "order": 8,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-physics-thermodynamics",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "Thermodynamics",
+    "order": 9,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-physics-oscillations",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "Oscillations",
+    "order": 10,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-physics-waves",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "name": "Waves",
+    "order": 11,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-chemistry-some-basic-concepts-of-chemistry",
+    "subjectId": "chemistry",
+    "classLevel": 11,
+    "name": "Some Basic Concepts of Chemistry",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-chemistry-structure-of-atom",
+    "subjectId": "chemistry",
+    "classLevel": 11,
+    "name": "Structure of Atom",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-chemistry-classification-of-elements-and-periodicity",
+    "subjectId": "chemistry",
+    "classLevel": 11,
+    "name": "Classification of Elements and Periodicity",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-chemistry-chemical-bonding-and-molecular-structure",
+    "subjectId": "chemistry",
+    "classLevel": 11,
+    "name": "Chemical Bonding and Molecular Structure",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-chemistry-thermodynamics",
+    "subjectId": "chemistry",
+    "classLevel": 11,
+    "name": "Thermodynamics",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-chemistry-equilibrium",
+    "subjectId": "chemistry",
+    "classLevel": 11,
+    "name": "Equilibrium",
+    "order": 6,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-chemistry-redox-reactions",
+    "subjectId": "chemistry",
+    "classLevel": 11,
+    "name": "Redox Reactions",
+    "order": 7,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-chemistry-organic-chemistry-some-basic-principles",
+    "subjectId": "chemistry",
+    "classLevel": 11,
+    "name": "Organic Chemistry Some Basic Principles",
+    "order": 8,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-chemistry-hydrocarbons",
+    "subjectId": "chemistry",
+    "classLevel": 11,
+    "name": "Hydrocarbons",
+    "order": 9,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-mathematics-sets",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Sets",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-relations-and-functions",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Relations and Functions",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-trigonometric-functions",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Trigonometric Functions",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-complex-numbers-and-quadratic-equations",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Complex Numbers and Quadratic Equations",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-linear-inequalities",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Linear Inequalities",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-permutations-and-combinations",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Permutations and Combinations",
+    "order": 6,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-binomial-theorem",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Binomial Theorem",
+    "order": 7,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-sequences-and-series",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Sequences and Series",
+    "order": 8,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-straight-lines",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Straight Lines",
+    "order": 9,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-conic-sections",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Conic Sections",
+    "order": 10,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-limits-and-derivatives",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Limits and Derivatives",
+    "order": 11,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-statistics",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Statistics",
+    "order": 12,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-mathematics-probability",
+    "subjectId": "mathematics",
+    "classLevel": 11,
+    "name": "Probability",
+    "order": 13,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "11-biology-the-living-world",
+    "subjectId": "biology",
+    "classLevel": 11,
+    "name": "The Living World",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-biology-biological-classification",
+    "subjectId": "biology",
+    "classLevel": 11,
+    "name": "Biological Classification",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-biology-plant-kingdom",
+    "subjectId": "biology",
+    "classLevel": 11,
+    "name": "Plant Kingdom",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-biology-animal-kingdom",
+    "subjectId": "biology",
+    "classLevel": 11,
+    "name": "Animal Kingdom",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-biology-cell-the-unit-of-life",
+    "subjectId": "biology",
+    "classLevel": 11,
+    "name": "Cell The Unit of Life",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-biology-biomolecules",
+    "subjectId": "biology",
+    "classLevel": 11,
+    "name": "Biomolecules",
+    "order": 6,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-biology-cell-cycle-and-cell-division",
+    "subjectId": "biology",
+    "classLevel": 11,
+    "name": "Cell Cycle and Cell Division",
+    "order": 7,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-biology-photosynthesis-in-higher-plants",
+    "subjectId": "biology",
+    "classLevel": 11,
+    "name": "Photosynthesis in Higher Plants",
+    "order": 8,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-biology-respiration-in-plants",
+    "subjectId": "biology",
+    "classLevel": 11,
+    "name": "Respiration in Plants",
+    "order": 9,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "11-biology-breathing-and-exchange-of-gases",
+    "subjectId": "biology",
+    "classLevel": 11,
+    "name": "Breathing and Exchange of Gases",
+    "order": 10,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-electric-charges-and-fields",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Electric Charges and Fields",
+    "order": 1,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-electrostatic-potential-and-capacitance",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Electrostatic Potential and Capacitance",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-current-electricity",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Current Electricity",
+    "order": 3,
+    "sampleOnly": false,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-moving-charges-and-magnetism",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Moving Charges and Magnetism",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-electromagnetic-induction",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Electromagnetic Induction",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-alternating-current",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Alternating Current",
+    "order": 6,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-ray-optics-and-optical-instruments",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Ray Optics and Optical Instruments",
+    "order": 7,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-wave-optics",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Wave Optics",
+    "order": 8,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-dual-nature-of-radiation-and-matter",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Dual Nature of Radiation and Matter",
+    "order": 9,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-atoms",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Atoms",
+    "order": 10,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-nuclei",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Nuclei",
+    "order": 11,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-physics-semiconductor-electronics",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "name": "Semiconductor Electronics",
+    "order": 12,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-chemistry-solutions",
+    "subjectId": "chemistry",
+    "classLevel": 12,
+    "name": "Solutions",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-chemistry-electrochemistry",
+    "subjectId": "chemistry",
+    "classLevel": 12,
+    "name": "Electrochemistry",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-chemistry-chemical-kinetics",
+    "subjectId": "chemistry",
+    "classLevel": 12,
+    "name": "Chemical Kinetics",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-chemistry-the-d-and-f-block-elements",
+    "subjectId": "chemistry",
+    "classLevel": 12,
+    "name": "The d and f Block Elements",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-chemistry-coordination-compounds",
+    "subjectId": "chemistry",
+    "classLevel": 12,
+    "name": "Coordination Compounds",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-chemistry-haloalkanes-and-haloarenes",
+    "subjectId": "chemistry",
+    "classLevel": 12,
+    "name": "Haloalkanes and Haloarenes",
+    "order": 6,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-chemistry-alcohols-phenols-and-ethers",
+    "subjectId": "chemistry",
+    "classLevel": 12,
+    "name": "Alcohols Phenols and Ethers",
+    "order": 7,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-chemistry-aldehydes-ketones-and-carboxylic-acids",
+    "subjectId": "chemistry",
+    "classLevel": 12,
+    "name": "Aldehydes Ketones and Carboxylic Acids",
+    "order": 8,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-chemistry-amines",
+    "subjectId": "chemistry",
+    "classLevel": 12,
+    "name": "Amines",
+    "order": 9,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-chemistry-biomolecules",
+    "subjectId": "chemistry",
+    "classLevel": 12,
+    "name": "Biomolecules",
+    "order": 10,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-mathematics-relations-and-functions",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Relations and Functions",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-inverse-trigonometric-functions",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Inverse Trigonometric Functions",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-matrices",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Matrices",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-determinants",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Determinants",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-continuity-and-differentiability",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Continuity and Differentiability",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-application-of-derivatives",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Application of Derivatives",
+    "order": 6,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-integrals",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Integrals",
+    "order": 7,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-application-of-integrals",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Application of Integrals",
+    "order": 8,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-differential-equations",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Differential Equations",
+    "order": 9,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-vector-algebra",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Vector Algebra",
+    "order": 10,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-three-dimensional-geometry",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Three Dimensional Geometry",
+    "order": 11,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-linear-programming",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Linear Programming",
+    "order": 12,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-mathematics-probability",
+    "subjectId": "mathematics",
+    "classLevel": 12,
+    "name": "Probability",
+    "order": 13,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "jee"
+    ]
+  },
+  {
+    "id": "12-biology-sexual-reproduction-in-flowering-plants",
+    "subjectId": "biology",
+    "classLevel": 12,
+    "name": "Sexual Reproduction in Flowering Plants",
+    "order": 1,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-biology-human-reproduction",
+    "subjectId": "biology",
+    "classLevel": 12,
+    "name": "Human Reproduction",
+    "order": 2,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-biology-reproductive-health",
+    "subjectId": "biology",
+    "classLevel": 12,
+    "name": "Reproductive Health",
+    "order": 3,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-biology-principles-of-inheritance-and-variation",
+    "subjectId": "biology",
+    "classLevel": 12,
+    "name": "Principles of Inheritance and Variation",
+    "order": 4,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-biology-molecular-basis-of-inheritance",
+    "subjectId": "biology",
+    "classLevel": 12,
+    "name": "Molecular Basis of Inheritance",
+    "order": 5,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-biology-evolution",
+    "subjectId": "biology",
+    "classLevel": 12,
+    "name": "Evolution",
+    "order": 6,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-biology-human-health-and-disease",
+    "subjectId": "biology",
+    "classLevel": 12,
+    "name": "Human Health and Disease",
+    "order": 7,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-biology-microbes-in-human-welfare",
+    "subjectId": "biology",
+    "classLevel": 12,
+    "name": "Microbes in Human Welfare",
+    "order": 8,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-biology-biotechnology-principles-and-processes",
+    "subjectId": "biology",
+    "classLevel": 12,
+    "name": "Biotechnology Principles and Processes",
+    "order": 9,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  },
+  {
+    "id": "12-biology-ecosystem",
+    "subjectId": "biology",
+    "classLevel": 12,
+    "name": "Ecosystem",
+    "order": 10,
+    "sampleOnly": true,
+    "examTags": [
+      "board",
+      "neet"
+    ]
+  }
+]

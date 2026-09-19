@@ -1,0 +1,8 @@
+[
+  { "id": "mathematics", "name": "Mathematics", "classLevels": [9, 10, 11, 12], "order": 1 },
+  { "id": "physics", "name": "Physics", "classLevels": [9, 10, 11, 12], "order": 2 },
+  { "id": "chemistry", "name": "Chemistry", "classLevels": [9, 10, 11, 12], "order": 3 },
+  { "id": "biology", "name": "Biology", "classLevels": [9, 10, 11, 12], "order": 4 },
+  { "id": "social_science", "name": "Social Science", "classLevels": [9, 10], "order": 5 },
+  { "id": "english", "name": "English", "classLevels": [9, 10], "order": 6 }
+]

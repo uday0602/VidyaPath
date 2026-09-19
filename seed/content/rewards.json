@@ -1,0 +1,57 @@
+[
+  {
+    "id": "notebook",
+    "name": "Study Notebook",
+    "description": "A ruled VidyaPath notebook for your working and formulas.",
+    "starsRequired": 60,
+    "available": true,
+    "oncePerUser": false,
+    "kind": "physical",
+    "prototype": true,
+    "order": 1
+  },
+  {
+    "id": "study-planner",
+    "name": "Printed Study Planner",
+    "description": "A 12-week planner with daily targets and revision slots.",
+    "starsRequired": 120,
+    "available": true,
+    "oncePerUser": false,
+    "kind": "physical",
+    "prototype": true,
+    "order": 2
+  },
+  {
+    "id": "educational-book",
+    "name": "Educational Book",
+    "description": "A problem-solving book for your goal, chosen at fulfilment.",
+    "starsRequired": 250,
+    "available": true,
+    "oncePerUser": false,
+    "kind": "physical",
+    "prototype": true,
+    "order": 3
+  },
+  {
+    "id": "certificate",
+    "name": "Certificate of Consistency",
+    "description": "A digital certificate recognising your learning consistency.",
+    "starsRequired": 150,
+    "available": true,
+    "oncePerUser": true,
+    "kind": "digital",
+    "prototype": false,
+    "order": 4
+  },
+  {
+    "id": "special-goodie",
+    "name": "Special Goodie",
+    "description": "A surprise VidyaPath goodie for top learners.",
+    "starsRequired": 500,
+    "available": true,
+    "oncePerUser": true,
+    "kind": "physical",
+    "prototype": true,
+    "order": 5
+  }
+]

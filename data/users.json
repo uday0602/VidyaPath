@@ -1,0 +1,128 @@
+[
+  {
+    "uid": "student_ananya",
+    "email": "ananya@example.com",
+    "name": "Ananya Sen",
+    "role": "student",
+    "classLevel": 11,
+    "board": "CBSE",
+    "stream": "PCM",
+    "language": "en",
+    "goal": "jee",
+    "subjects": [
+      "mathematics"
+    ],
+    "xp": 150,
+    "stars": 20,
+    "questionsSolved": 5,
+    "modulesCompleted": 0,
+    "problemsSolved": 0,
+    "createdAt": "2026-09-18T20:16:40.827Z",
+    "updatedAt": "2026-09-18T20:16:40.827Z"
+  },
+  {
+    "uid": "admin-uday",
+    "email": "uday12462@gmail.com",
+    "name": "Uday (App Owner)",
+    "role": "admin",
+    "classLevel": 12,
+    "board": "CBSE",
+    "stream": "PCM",
+    "goal": "board_jee",
+    "subjects": [
+      "mathematics",
+      "physics",
+      "chemistry"
+    ],
+    "xp": 4500,
+    "stars": 350,
+    "questionsSolved": 120,
+    "modulesCompleted": 18,
+    "createdAt": "2026-09-18T20:16:36.312Z",
+    "updatedAt": "2026-09-18T20:16:36.312Z"
+  },
+  {
+    "uid": "demo-aarav",
+    "email": "aarav@vidyapath.demo",
+    "name": "Aarav Sharma",
+    "role": "student",
+    "classLevel": 10,
+    "board": "CBSE",
+    "stream": null,
+    "goal": "board_jee",
+    "subjects": [
+      "mathematics",
+      "physics",
+      "chemistry"
+    ],
+    "xp": 2450,
+    "stars": 180,
+    "questionsSolved": 48,
+    "modulesCompleted": 6,
+    "createdAt": "2026-09-01T20:16:36.312Z",
+    "updatedAt": "2026-09-18T20:16:36.312Z"
+  },
+  {
+    "uid": "demo-priya",
+    "email": "priya@vidyapath.demo",
+    "name": "Priya Nair",
+    "role": "student",
+    "classLevel": 11,
+    "board": "CBSE",
+    "stream": "PCM",
+    "goal": "board",
+    "subjects": [
+      "mathematics",
+      "physics",
+      "chemistry"
+    ],
+    "xp": 1800,
+    "stars": 90,
+    "questionsSolved": 32,
+    "modulesCompleted": 4,
+    "createdAt": "2026-09-06T20:16:36.312Z",
+    "updatedAt": "2026-09-18T20:16:36.312Z"
+  },
+  {
+    "uid": "demo-rahul",
+    "email": "rahul@vidyapath.demo",
+    "name": "Rahul Verma",
+    "role": "student",
+    "classLevel": 12,
+    "board": "CBSE",
+    "stream": "PCB",
+    "goal": "board_neet",
+    "subjects": [
+      "physics",
+      "chemistry",
+      "biology"
+    ],
+    "xp": 1250,
+    "stars": 60,
+    "questionsSolved": 24,
+    "modulesCompleted": 3,
+    "createdAt": "2026-09-10T20:16:36.312Z",
+    "updatedAt": "2026-09-18T20:16:36.312Z"
+  },
+  {
+    "uid": "demo-meera",
+    "email": "meera@vidyapath.demo",
+    "name": "Meera Iyer",
+    "role": "student",
+    "classLevel": 10,
+    "board": "ICSE",
+    "stream": null,
+    "goal": "board_jee",
+    "subjects": [
+      "mathematics",
+      "physics",
+      "chemistry"
+    ],
+    "xp": 2100,
+    "stars": 140,
+    "questionsSolved": 41,
+    "modulesCompleted": 5,
+    "createdAt": "2026-09-08T20:16:36.312Z",
+    "updatedAt": "2026-09-18T20:16:36.312Z"
+  }
+]

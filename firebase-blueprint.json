@@ -1,0 +1,95 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User account profile and academic metadata",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "name": { "type": "string" },
+        "role": { "type": "string", "enum": ["student", "admin"] },
+        "classLevel": { "type": "number" },
+        "board": { "type": "string" },
+        "stream": { "type": "string" },
+        "goal": { "type": "string" },
+        "xp": { "type": "number" },
+        "stars": { "type": "number" },
+        "questionsSolved": { "type": "number" },
+        "modulesCompleted": { "type": "number" },
+        "problemsSolved": { "type": "number" },
+        "revisionsCompleted": { "type": "number" },
+        "badgeIds": { "type": "array", "items": { "type": "string" } },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["uid", "email", "name", "role", "classLevel", "board", "goal"]
+    },
+    "PublicProfile": {
+      "title": "PublicProfile",
+      "description": "Sanitized public profile for leaderboard and forum",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "anonUsername": { "type": "string" },
+        "avatar": { "type": "string" },
+        "classLevel": { "type": "number" },
+        "goal": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["uid", "anonUsername", "avatar", "classLevel", "goal"]
+    },
+    "Doubt": {
+      "title": "Doubt",
+      "description": "Peer community doubt thread",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "authorId": { "type": "string" },
+        "authorName": { "type": "string" },
+        "subjectId": { "type": "string" },
+        "title": { "type": "string" },
+        "body": { "type": "string" },
+        "status": { "type": "string", "enum": ["open", "resolved"] },
+        "answerCount": { "type": "number" },
+        "voteCount": { "type": "number" },
+        "hidden": { "type": "boolean" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "authorId", "subjectId", "title", "body", "status"]
+    },
+    "Report": {
+      "title": "Report",
+      "description": "Content moderation report",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "reporterId": { "type": "string" },
+        "targetType": { "type": "string", "enum": ["doubt", "answer", "user"] },
+        "targetId": { "type": "string" },
+        "reason": { "type": "string" },
+        "status": { "type": "string", "enum": ["open", "resolved", "dismissed"] },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "reporterId", "targetType", "targetId", "reason", "status"]
+    }
+  },
+  "firestore": {
+    "/users/{uid}": {
+      "schema": "User",
+      "description": "Individual student and admin user accounts"
+    },
+    "/publicProfiles/{uid}": {
+      "schema": "PublicProfile",
+      "description": "Public directory profile for anonymous peer interaction"
+    },
+    "/doubts/{doubtId}": {
+      "schema": "Doubt",
+      "description": "Discussion doubts posted by students"
+    },
+    "/reports/{reportId}": {
+      "schema": "Report",
+      "description": "Moderation reports submitted by users"
+    }
+  }
+}

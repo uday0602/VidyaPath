@@ -1,0 +1,44 @@
+[
+  {
+    "id": "challenge-1",
+    "title": "Quadratics Sprint",
+    "questionIds": [
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q1",
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q3",
+      "10-mathematics-quadratic-equations-nature-of-roots-q2",
+      "10-mathematics-quadratic-equations-standard-form-q2",
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q6"
+    ],
+    "timeLimitSec": 600,
+    "classLevel": 10,
+    "order": 0
+  },
+  {
+    "id": "challenge-2",
+    "title": "Number Theory Mix",
+    "questionIds": [
+      "10-mathematics-real-numbers-euclids-division-lemma-q2",
+      "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q3",
+      "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q4",
+      "10-mathematics-real-numbers-euclids-division-lemma-q5",
+      "10-mathematics-polynomials-zeros-and-coefficients-q2"
+    ],
+    "timeLimitSec": 600,
+    "classLevel": 10,
+    "order": 1
+  },
+  {
+    "id": "challenge-3",
+    "title": "Maths and Chemistry Mix",
+    "questionIds": [
+      "10-mathematics-polynomials-zeros-and-coefficients-q4",
+      "10-mathematics-quadratic-equations-nature-of-roots-q4",
+      "10-chemistry-chemical-reactions-and-equations-balancing-equations-q3",
+      "10-chemistry-chemical-reactions-and-equations-balancing-equations-q6",
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q7"
+    ],
+    "timeLimitSec": 720,
+    "classLevel": 10,
+    "order": 2
+  }
+]

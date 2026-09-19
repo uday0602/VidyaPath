@@ -1,0 +1,2508 @@
+[
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p1",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "mathematics",
+      "title": "Roots of x^2 - 5x + 6 = 0",
+      "statement": "Find the roots of the equation x^2 - 5x + 6 = 0.",
+      "concept": "Splitting the middle term",
+      "expectedMinutes": 3,
+      "marks": 2,
+      "hints": [
+        "Which two numbers multiply to 6 and add to -5?",
+        "Both numbers are negative because the product is positive and the sum is negative.",
+        "Try -2 and -3."
+      ],
+      "answerType": "text",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p2",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p3",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p4"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p1",
+      "finalAnswer": "x = 2 or x = 3",
+      "numericAnswer": null,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "2, 3",
+        "3, 2",
+        "2 and 3",
+        "3 and 2",
+        "x = 2 or x = 3",
+        "x=2,x=3",
+        "2,3"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "A quadratic with a = 1; we need its two roots."
+        },
+        {
+          "label": "Given",
+          "content": "a = 1, b = -5, c = 6"
+        },
+        {
+          "label": "Find",
+          "content": "Values of x that satisfy the equation"
+        },
+        {
+          "label": "Concept",
+          "content": "Factorisation by splitting the middle term"
+        },
+        {
+          "label": "Method",
+          "content": "Find p, q with p x q = a x c = 6 and p + q = -5"
+        },
+        {
+          "label": "Solve",
+          "content": "-2 and -3 work: x^2 - 2x - 3x + 6 = (x - 2)(x - 3) = 0, so x = 2 or 3"
+        },
+        {
+          "label": "Verify",
+          "content": "2^2 - 10 + 6 = 0 and 3^2 - 15 + 6 = 0. Both check."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "sign",
+          "description": "Chose +2 and +3, giving roots -2 and -3.",
+          "matchAnswers": [
+            "-2, -3",
+            "-2 and -3",
+            "-2,-3"
+          ]
+        },
+        {
+          "type": "concept",
+          "description": "Read the constant term as the root.",
+          "matchAnswers": [
+            "6",
+            "-5"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Look for two numbers whose product is 6 and whose sum is -5. Start by listing factor pairs of 6.",
+        "concept": "This is a quadratic in standard form with a = 1. The concept is factorisation by splitting the middle term: rewrite -5x as two terms so you can group.",
+        "guide": "Plan: 1) list factor pairs of 6, 2) pick the pair adding to -5, 3) rewrite the middle term, 4) group and factor, 5) set each bracket to zero.",
+        "checkApproach": "If you found the pair -2 and -3 you are on the right track. Check that you set each factor equal to zero rather than the whole expression.",
+        "findMistake": "The usual slip is the sign: the product is +6 so both numbers share a sign, and the sum -5 forces both negative. Roots are then +2 and +3, not -2 and -3.",
+        "fullExplanation": "x^2 - 5x + 6 = x^2 - 2x - 3x + 6 = x(x - 2) - 3(x - 2) = (x - 2)(x - 3). Setting each factor to zero gives x = 2 or x = 3. Substituting back confirms both."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p2",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "mathematics",
+      "title": "Roots of x^2 + 7x + 10 = 0",
+      "statement": "Solve x^2 + 7x + 10 = 0 by factorisation.",
+      "concept": "Splitting the middle term",
+      "expectedMinutes": 3,
+      "marks": 2,
+      "hints": [
+        "Product 10, sum 7.",
+        "Both numbers are positive.",
+        "2 and 5."
+      ],
+      "answerType": "text",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p1",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p3",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p4"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p2",
+      "finalAnswer": "x = -2 or x = -5",
+      "numericAnswer": null,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "-2, -5",
+        "-5, -2",
+        "-2 and -5",
+        "-5 and -2",
+        "x = -2 or x = -5",
+        "-2,-5"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "Quadratic with a = 1."
+        },
+        {
+          "label": "Given",
+          "content": "a = 1, b = 7, c = 10"
+        },
+        {
+          "label": "Find",
+          "content": "Roots"
+        },
+        {
+          "label": "Concept",
+          "content": "Factorisation"
+        },
+        {
+          "label": "Method",
+          "content": "Numbers with product 10 and sum 7: 2 and 5"
+        },
+        {
+          "label": "Solve",
+          "content": "(x + 2)(x + 5) = 0, x = -2 or -5"
+        },
+        {
+          "label": "Verify",
+          "content": "4 - 14 + 10 = 0 and 25 - 35 + 10 = 0."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "sign",
+          "description": "Wrote roots as +2 and +5.",
+          "matchAnswers": [
+            "2, 5",
+            "2 and 5",
+            "2,5"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Find two numbers with product 10 and sum 7.",
+        "concept": "Factorisation of a monic quadratic: split 7x using two numbers that multiply to 10.",
+        "guide": "List factor pairs of 10 (1,10), (2,5). Which pair sums to 7? Then write the brackets and solve.",
+        "checkApproach": "Good if you reached (x + 2)(x + 5). Each bracket equal to zero gives a negative root.",
+        "findMistake": "When the bracket is (x + 2), the root is x = -2, not +2. Flip the sign when reading roots off brackets.",
+        "fullExplanation": "x^2 + 7x + 10 = (x + 2)(x + 5). So x + 2 = 0 or x + 5 = 0, giving x = -2 or x = -5."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p3",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "mathematics",
+      "title": "Roots of x^2 - 9 = 0",
+      "statement": "Find the roots of x^2 - 9 = 0.",
+      "concept": "Difference of squares",
+      "expectedMinutes": 2,
+      "marks": 1,
+      "hints": [
+        "x^2 - 9 is a difference of two squares.",
+        "a^2 - b^2 = (a - b)(a + b).",
+        "Two roots, one positive and one negative."
+      ],
+      "answerType": "text",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p1",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p2",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p4"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p3",
+      "finalAnswer": "x = 3 or x = -3",
+      "numericAnswer": null,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "3, -3",
+        "-3, 3",
+        "3 and -3",
+        "+/-3",
+        "±3",
+        "x = 3 or x = -3",
+        "3,-3"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "There is no x term, so b = 0."
+        },
+        {
+          "label": "Given",
+          "content": "a = 1, b = 0, c = -9"
+        },
+        {
+          "label": "Find",
+          "content": "Roots"
+        },
+        {
+          "label": "Concept",
+          "content": "Difference of squares"
+        },
+        {
+          "label": "Method",
+          "content": "x^2 - 9 = (x - 3)(x + 3)"
+        },
+        {
+          "label": "Solve",
+          "content": "x = 3 or x = -3"
+        },
+        {
+          "label": "Verify",
+          "content": "9 - 9 = 0 for both."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "concept",
+          "description": "Gave only the positive root 3.",
+          "matchAnswers": [
+            "3"
+          ]
+        },
+        {
+          "type": "concept",
+          "description": "Gave only -3.",
+          "matchAnswers": [
+            "-3"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Can you write 9 as a square? Then use a^2 - b^2.",
+        "concept": "The concept is the difference of squares identity a^2 - b^2 = (a - b)(a + b).",
+        "guide": "Write x^2 - 3^2, apply the identity, then set each bracket to zero.",
+        "checkApproach": "If you took the square root of both sides, remember a square root equation has two answers.",
+        "findMistake": "Taking sqrt 9 = 3 alone misses the negative root. Both 3 and -3 square to 9.",
+        "fullExplanation": "x^2 - 9 = (x - 3)(x + 3) = 0, so x = 3 or x = -3."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p4",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "examTypes": [
+        "board",
+        "jee"
+      ],
+      "framework": "mathematics",
+      "title": "Roots of 2x^2 - 7x + 3 = 0",
+      "statement": "Solve 2x^2 - 7x + 3 = 0.",
+      "concept": "Splitting the middle term when a is not 1",
+      "expectedMinutes": 4,
+      "marks": 3,
+      "hints": [
+        "The product to use is a x c = 6, not 3.",
+        "Which two numbers multiply to 6 and add to -7?",
+        "Group in pairs after splitting."
+      ],
+      "answerType": "text",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p5",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p6",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p7"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p4",
+      "finalAnswer": "x = 3 or x = 1/2",
+      "numericAnswer": null,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "3, 1/2",
+        "1/2, 3",
+        "3 and 1/2",
+        "3, 0.5",
+        "0.5, 3",
+        "x = 3 or x = 1/2",
+        "3,0.5",
+        "3,1/2"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "a = 2, so the product for splitting is a x c."
+        },
+        {
+          "label": "Given",
+          "content": "a = 2, b = -7, c = 3"
+        },
+        {
+          "label": "Find",
+          "content": "Roots"
+        },
+        {
+          "label": "Concept",
+          "content": "Splitting the middle term"
+        },
+        {
+          "label": "Method",
+          "content": "Numbers with product 6 and sum -7: -6 and -1"
+        },
+        {
+          "label": "Solve",
+          "content": "2x^2 - 6x - x + 3 = 2x(x - 3) - 1(x - 3) = (2x - 1)(x - 3), so x = 1/2 or 3"
+        },
+        {
+          "label": "Verify",
+          "content": "2(9) - 21 + 3 = 0; 2(1/4) - 7/2 + 3 = 0."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "concept",
+          "description": "Used product c = 3 instead of a x c = 6.",
+          "matchAnswers": [
+            "3, 1",
+            "1, 3",
+            "3 and 1"
+          ]
+        },
+        {
+          "type": "calculation",
+          "description": "Read the root of 2x - 1 = 0 as 2.",
+          "matchAnswers": [
+            "3, 2",
+            "2, 3",
+            "3 and 2"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Since a = 2, multiply a and c first: 2 x 3 = 6. Now find two numbers with product 6 and sum -7.",
+        "concept": "Splitting the middle term still works when a is not 1, but the product you need is a x c.",
+        "guide": "1) Compute a x c = 6. 2) Find the pair with sum -7. 3) Rewrite -7x. 4) Factor by grouping. 5) Solve each bracket, remembering 2x - 1 = 0 gives x = 1/2.",
+        "checkApproach": "If you used -6 and -1 and grouped to get (2x - 1)(x - 3), you are correct. Double-check the root from 2x - 1 = 0.",
+        "findMistake": "Most errors here come from using product 3 instead of 6, or from solving 2x - 1 = 0 as x = 2 instead of x = 1/2.",
+        "fullExplanation": "2x^2 - 7x + 3 = 2x^2 - 6x - x + 3 = 2x(x - 3) - 1(x - 3) = (2x - 1)(x - 3). So x = 1/2 or x = 3."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p5",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "mathematics",
+      "title": "Roots of 3x^2 - 2x - 1 = 0",
+      "statement": "Find the roots of 3x^2 - 2x - 1 = 0.",
+      "concept": "Splitting the middle term when a is not 1",
+      "expectedMinutes": 4,
+      "marks": 3,
+      "hints": [
+        "a x c = -3.",
+        "Numbers with product -3 and sum -2.",
+        "-3 and 1."
+      ],
+      "answerType": "text",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p4",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p6",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p7"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p5",
+      "finalAnswer": "x = 1 or x = -1/3",
+      "numericAnswer": null,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "1, -1/3",
+        "-1/3, 1",
+        "1 and -1/3",
+        "1, -0.333",
+        "x = 1 or x = -1/3",
+        "1,-1/3"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "a = 3."
+        },
+        {
+          "label": "Given",
+          "content": "a = 3, b = -2, c = -1"
+        },
+        {
+          "label": "Find",
+          "content": "Roots"
+        },
+        {
+          "label": "Concept",
+          "content": "Splitting the middle term"
+        },
+        {
+          "label": "Method",
+          "content": "Product -3, sum -2: -3 and 1"
+        },
+        {
+          "label": "Solve",
+          "content": "3x^2 - 3x + x - 1 = 3x(x - 1) + 1(x - 1) = (3x + 1)(x - 1)"
+        },
+        {
+          "label": "Verify",
+          "content": "3 - 2 - 1 = 0; 3/9 + 2/3 - 1 = 0."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "concept",
+          "description": "Used product -1 instead of -3.",
+          "matchAnswers": [
+            "1, -1",
+            "-1, 1"
+          ]
+        },
+        {
+          "type": "sign",
+          "description": "Root of 3x + 1 = 0 written as +1/3.",
+          "matchAnswers": [
+            "1, 1/3",
+            "1/3, 1"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Multiply a and c: 3 x (-1) = -3. Find numbers with product -3 and sum -2.",
+        "concept": "Factorisation with a = 3: the split uses a x c.",
+        "guide": "Compute a x c, choose the pair (-3, 1), rewrite the middle term, group, then solve 3x + 1 = 0 and x - 1 = 0.",
+        "checkApproach": "If you have (3x + 1)(x - 1), just read the roots carefully: 3x + 1 = 0 gives x = -1/3.",
+        "findMistake": "Check the sign of the fractional root: 3x + 1 = 0 means 3x = -1, so x = -1/3, not +1/3.",
+        "fullExplanation": "3x^2 - 2x - 1 = 3x^2 - 3x + x - 1 = (3x + 1)(x - 1). Roots: x = 1 and x = -1/3."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p6",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "mathematics",
+      "title": "Consecutive integers with product 306",
+      "statement": "Find two consecutive positive integers whose product is 306.",
+      "concept": "Forming and solving a quadratic",
+      "expectedMinutes": 5,
+      "marks": 3,
+      "hints": [
+        "Let the smaller integer be x. The next one is x + 1.",
+        "x(x + 1) = 306 becomes x^2 + x - 306 = 0.",
+        "Product -306, sum 1: 18 and -17."
+      ],
+      "answerType": "text",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p4",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p5",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p7"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p6",
+      "finalAnswer": "17 and 18",
+      "numericAnswer": null,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "17, 18",
+        "18, 17",
+        "17 and 18",
+        "17,18"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "Two unknowns that differ by 1; one variable suffices."
+        },
+        {
+          "label": "Given",
+          "content": "Product of x and x + 1 is 306"
+        },
+        {
+          "label": "Find",
+          "content": "The two integers"
+        },
+        {
+          "label": "Concept",
+          "content": "Word problem to quadratic"
+        },
+        {
+          "label": "Method",
+          "content": "x^2 + x - 306 = 0; split with 18 and -17"
+        },
+        {
+          "label": "Solve",
+          "content": "(x + 18)(x - 17) = 0; x = 17 (reject -18)"
+        },
+        {
+          "label": "Verify",
+          "content": "17 x 18 = 306."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "misread",
+          "description": "Answered only the equation's root 17 without the second integer.",
+          "matchAnswers": [
+            "17"
+          ]
+        },
+        {
+          "type": "reasoning",
+          "description": "Kept the negative root.",
+          "matchAnswers": [
+            "-18, -17",
+            "-18 and -17"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Call the smaller number x. What is the next integer, and what is their product?",
+        "concept": "This is a word problem that forms a quadratic: x(x + 1) = 306.",
+        "guide": "1) Set x(x + 1) = 306. 2) Rearrange to x^2 + x - 306 = 0. 3) Split using 18 and -17. 4) Solve. 5) Reject the negative root since the integers are positive.",
+        "checkApproach": "If your equation is x^2 + x - 306 = 0 you are right. Make sure you answered with both integers.",
+        "findMistake": "The question asks for two integers, and the negative root must be rejected. The answer is 17 and 18.",
+        "fullExplanation": "x(x + 1) = 306 gives x^2 + x - 306 = 0 = (x + 18)(x - 17). x = 17 since it must be positive, so the integers are 17 and 18."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p7",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "examTypes": [
+        "board",
+        "jee"
+      ],
+      "framework": "mathematics",
+      "title": "Roots of x^2 + 2x - 1 = 0",
+      "statement": "Solve x^2 + 2x - 1 = 0. Give exact roots.",
+      "concept": "Quadratic formula",
+      "expectedMinutes": 5,
+      "marks": 3,
+      "hints": [
+        "No integer pair has product -1 and sum 2, so use the formula.",
+        "D = b^2 - 4ac = 4 + 4 = 8.",
+        "sqrt 8 = 2 sqrt 2, then divide the whole numerator by 2."
+      ],
+      "answerType": "text",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p8",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p9",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p10"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p7",
+      "finalAnswer": "x = -1 + sqrt 2 or x = -1 - sqrt 2",
+      "numericAnswer": null,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "-1 +/- sqrt 2",
+        "-1 ± √2",
+        "-1+sqrt2, -1-sqrt2",
+        "-1 + sqrt 2, -1 - sqrt 2",
+        "-1 +/- root 2",
+        "-1±√2",
+        "-1 +/- sqrt2"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "Middle term will not split over integers."
+        },
+        {
+          "label": "Given",
+          "content": "a = 1, b = 2, c = -1"
+        },
+        {
+          "label": "Find",
+          "content": "Exact roots"
+        },
+        {
+          "label": "Concept",
+          "content": "Quadratic formula"
+        },
+        {
+          "label": "Method",
+          "content": "x = [-b +/- sqrt(b^2 - 4ac)] / 2a"
+        },
+        {
+          "label": "Solve",
+          "content": "x = [-2 +/- sqrt 8] / 2 = [-2 +/- 2 sqrt 2] / 2 = -1 +/- sqrt 2"
+        },
+        {
+          "label": "Verify",
+          "content": "(-1 + sqrt 2)^2 + 2(-1 + sqrt 2) - 1 = 3 - 2 sqrt 2 - 2 + 2 sqrt 2 - 1 = 0."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "calculation",
+          "description": "Forgot to divide the sqrt term by 2.",
+          "matchAnswers": [
+            "-1 +/- 2 sqrt 2",
+            "-1 ± 2√2"
+          ]
+        },
+        {
+          "type": "sign",
+          "description": "Used +b instead of -b.",
+          "matchAnswers": [
+            "1 +/- sqrt 2",
+            "1 ± √2"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Try to split 2x with product -1: it does not work, so reach for the formula.",
+        "concept": "When factorisation fails, the quadratic formula always applies. Compute the discriminant first.",
+        "guide": "1) Identify a, b, c. 2) D = 4 + 4 = 8. 3) Substitute into the formula. 4) Simplify sqrt 8. 5) Divide every term of the numerator by 2.",
+        "checkApproach": "If you got (-2 +/- sqrt 8)/2 you are almost there: simplify sqrt 8 = 2 sqrt 2 and divide both terms.",
+        "findMistake": "Common errors: writing +2 instead of -2 for -b, or dividing only the first term of the numerator by 2.",
+        "fullExplanation": "x = [-2 +/- sqrt(4 + 4)] / 2 = [-2 +/- 2 sqrt 2] / 2 = -1 +/- sqrt 2."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p8",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "examTypes": [
+        "board",
+        "jee"
+      ],
+      "framework": "mathematics",
+      "title": "Value of k from a known root",
+      "statement": "If x = 2 is a root of x^2 + kx - 10 = 0, find k and the other root.",
+      "concept": "Substituting a root",
+      "expectedMinutes": 5,
+      "marks": 3,
+      "hints": [
+        "A root satisfies the equation: substitute x = 2.",
+        "4 + 2k - 10 = 0.",
+        "Then the product of roots is -10."
+      ],
+      "answerType": "text",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p7",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p9",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p10"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p8",
+      "finalAnswer": "k = 3, other root -5",
+      "numericAnswer": null,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "k = 3, -5",
+        "3, -5",
+        "k=3, other root -5",
+        "k = 3 and other root = -5",
+        "3 and -5",
+        "3,-5"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "A root makes the equation true."
+        },
+        {
+          "label": "Given",
+          "content": "Root x = 2 of x^2 + kx - 10 = 0"
+        },
+        {
+          "label": "Find",
+          "content": "k and the second root"
+        },
+        {
+          "label": "Concept",
+          "content": "Substitution and product of roots"
+        },
+        {
+          "label": "Method",
+          "content": "Substitute x = 2 to get k; product of roots = c/a = -10"
+        },
+        {
+          "label": "Solve",
+          "content": "4 + 2k - 10 = 0 so k = 3; other root = -10/2 = -5"
+        },
+        {
+          "label": "Verify",
+          "content": "x^2 + 3x - 10 = (x + 5)(x - 2). Correct."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "misread",
+          "description": "Answered only k.",
+          "matchAnswers": [
+            "3",
+            "k = 3"
+          ]
+        },
+        {
+          "type": "sign",
+          "description": "Got k = -3 from 4 - 2k - 10 = 0.",
+          "matchAnswers": [
+            "-3, 5",
+            "k = -3"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "What does it mean for x = 2 to be a root? Put 2 in place of x.",
+        "concept": "Two concepts: a root satisfies the equation, and the product of roots equals c/a.",
+        "guide": "1) Substitute x = 2 and solve for k. 2) Use product of roots = -10 to get the other root. 3) Answer both parts.",
+        "checkApproach": "If you found k = 3, now find the second root: 2 x (other) = -10.",
+        "findMistake": "Watch signs when substituting: 2^2 + k(2) - 10 = 0 gives 2k = 6. And remember the question asks for the other root too.",
+        "fullExplanation": "Substitute x = 2: 4 + 2k - 10 = 0, k = 3. Then x^2 + 3x - 10 = (x + 5)(x - 2), so the other root is -5."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p9",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "mathematics",
+      "title": "Rectangle from area and difference",
+      "statement": "A rectangular field has area 60 m^2 and its length is 7 m more than its breadth. Find the breadth.",
+      "concept": "Word problem, rejecting a root",
+      "expectedMinutes": 6,
+      "marks": 3,
+      "hints": [
+        "Let breadth be b, then length is b + 7.",
+        "Area: b(b + 7) = 60.",
+        "One root is negative and must be rejected."
+      ],
+      "answerType": "numeric",
+      "answerUnit": "m",
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p7",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p8",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p10"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p9",
+      "finalAnswer": "5 m",
+      "numericAnswer": 5,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "5",
+        "5 m",
+        "5m",
+        "b = 5",
+        "breadth 5 m"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "Two dimensions linked by a difference; area gives the equation."
+        },
+        {
+          "label": "Given",
+          "content": "Area 60, length = breadth + 7"
+        },
+        {
+          "label": "Find",
+          "content": "Breadth"
+        },
+        {
+          "label": "Concept",
+          "content": "Word problem to quadratic"
+        },
+        {
+          "label": "Method",
+          "content": "b^2 + 7b - 60 = 0; split with 12 and -5"
+        },
+        {
+          "label": "Solve",
+          "content": "(b + 12)(b - 5) = 0; b = 5 (reject -12)"
+        },
+        {
+          "label": "Verify",
+          "content": "5 x 12 = 60."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "reasoning",
+          "description": "Reported the length 12 instead of the breadth.",
+          "matchAnswers": [
+            "12",
+            "12 m"
+          ]
+        },
+        {
+          "type": "reasoning",
+          "description": "Kept the negative root.",
+          "matchAnswers": [
+            "-12",
+            "-12 m"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Choose the breadth as your unknown and write the length in terms of it.",
+        "concept": "Area of a rectangle equals length x breadth; that gives the quadratic.",
+        "guide": "1) b(b + 7) = 60. 2) b^2 + 7b - 60 = 0. 3) Factor. 4) Reject the negative root. 5) Report the breadth in metres.",
+        "checkApproach": "If you reached (b + 12)(b - 5), pick the root that makes sense for a length.",
+        "findMistake": "A length cannot be negative, so -12 is rejected. Also check the question asks for the breadth, not the length.",
+        "fullExplanation": "b(b + 7) = 60 gives b^2 + 7b - 60 = 0 = (b + 12)(b - 5). b = 5, so breadth is 5 m (length 12 m)."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p10",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 4,
+      "examTypes": [
+        "jee",
+        "board"
+      ],
+      "framework": "mathematics",
+      "title": "Train speed from a time difference",
+      "statement": "A train covers 480 km at a uniform speed. If the speed were 8 km/h less, it would take 3 hours more. Find the original speed.",
+      "concept": "Time = distance / speed, forming a quadratic",
+      "expectedMinutes": 8,
+      "marks": 4,
+      "hints": [
+        "Let the speed be x km/h. Time = 480/x.",
+        "Slower time minus faster time equals 3: 480/(x - 8) - 480/x = 3.",
+        "Clear denominators to get x^2 - 8x - 1280 = 0."
+      ],
+      "answerType": "numeric",
+      "answerUnit": "km/h",
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p11",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p12",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p13"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p10",
+      "finalAnswer": "40 km/h",
+      "numericAnswer": 40,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "40",
+        "40 km/h",
+        "40km/h",
+        "x = 40"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "Speed change produces a time change; use time = distance / speed."
+        },
+        {
+          "label": "Given",
+          "content": "Distance 480 km; speed reduced by 8 km/h adds 3 h"
+        },
+        {
+          "label": "Find",
+          "content": "Original speed"
+        },
+        {
+          "label": "Concept",
+          "content": "Rational equation leading to a quadratic"
+        },
+        {
+          "label": "Method",
+          "content": "480/(x - 8) - 480/x = 3 gives 480 x 8 = 3x(x - 8), so x^2 - 8x - 1280 = 0"
+        },
+        {
+          "label": "Solve",
+          "content": "(x - 40)(x + 32) = 0; x = 40"
+        },
+        {
+          "label": "Verify",
+          "content": "480/40 = 12 h; 480/32 = 15 h; difference 3 h."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "sign",
+          "description": "Kept the negative root.",
+          "matchAnswers": [
+            "-32"
+          ]
+        },
+        {
+          "type": "misread",
+          "description": "Reported the reduced speed 32.",
+          "matchAnswers": [
+            "32",
+            "32 km/h"
+          ]
+        },
+        {
+          "type": "formula",
+          "description": "Set 480/x - 480/(x - 8) = 3 and got a negative speed.",
+          "matchAnswers": [
+            "-40"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Write the time for each speed as distance over speed. Which time is longer?",
+        "concept": "Time = distance / speed. The slower journey takes 3 h longer, so subtract the two times.",
+        "guide": "1) Times 480/x and 480/(x - 8). 2) Slower minus faster = 3. 3) Multiply out to get a quadratic. 4) Factor. 5) Reject the negative root.",
+        "checkApproach": "If your equation is 480/(x - 8) - 480/x = 3, multiply through by x(x - 8) and simplify to x^2 - 8x - 1280 = 0.",
+        "findMistake": "Typical slips: subtracting in the wrong order (sign error), or answering the slower speed 32 instead of the original 40.",
+        "fullExplanation": "480/(x - 8) - 480/x = 3. Multiply by x(x - 8): 480x - 480(x - 8) = 3x(x - 8), so 3840 = 3x^2 - 24x, x^2 - 8x - 1280 = 0 = (x - 40)(x + 32). Speed = 40 km/h."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p11",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 4,
+      "examTypes": [
+        "jee"
+      ],
+      "framework": "mathematics",
+      "title": "Sum of reciprocals",
+      "statement": "Find the roots of the equation 1/(x - 1) + 1/(x + 1) = 3/4.",
+      "concept": "Rational equation to quadratic",
+      "expectedMinutes": 8,
+      "marks": 4,
+      "hints": [
+        "Combine the fractions on the left: (x + 1 + x - 1)/(x^2 - 1).",
+        "2x/(x^2 - 1) = 3/4, then cross-multiply.",
+        "3x^2 - 8x - 3 = 0."
+      ],
+      "answerType": "text",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p10",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p12",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p13"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p11",
+      "finalAnswer": "x = 3 or x = -1/3",
+      "numericAnswer": null,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "3, -1/3",
+        "-1/3, 3",
+        "3 and -1/3",
+        "x = 3 or x = -1/3",
+        "3,-1/3"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "Two fractions with x in the denominator."
+        },
+        {
+          "label": "Given",
+          "content": "1/(x - 1) + 1/(x + 1) = 3/4"
+        },
+        {
+          "label": "Find",
+          "content": "Values of x"
+        },
+        {
+          "label": "Concept",
+          "content": "Combining fractions, then quadratic"
+        },
+        {
+          "label": "Method",
+          "content": "2x/(x^2 - 1) = 3/4 gives 8x = 3x^2 - 3, 3x^2 - 8x - 3 = 0"
+        },
+        {
+          "label": "Solve",
+          "content": "(3x + 1)(x - 3) = 0"
+        },
+        {
+          "label": "Verify",
+          "content": "x = 3: 1/2 + 1/4 = 3/4. x = -1/3: 1/(-4/3) + 1/(2/3) = -3/4 + 3/2 = 3/4."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "calculation",
+          "description": "Combined numerators as 2 instead of 2x.",
+          "matchAnswers": [
+            "2/3",
+            "-2/3"
+          ]
+        },
+        {
+          "type": "sign",
+          "description": "Wrote 3x^2 + 8x - 3 = 0.",
+          "matchAnswers": [
+            "-3, 1/3",
+            "-3 and 1/3"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Add the two fractions using the common denominator (x - 1)(x + 1).",
+        "concept": "Combine fractions, then cross-multiply to reach a quadratic.",
+        "guide": "1) Common denominator x^2 - 1. 2) Numerator 2x. 3) Cross-multiply. 4) Rearrange to 3x^2 - 8x - 3 = 0. 5) Split with -9 and 1.",
+        "checkApproach": "If you have 8x = 3(x^2 - 1) you are on track. Rearrange carefully.",
+        "findMistake": "Check the numerator: (x + 1) + (x - 1) = 2x, not 2. And keep the sign of -8x when rearranging.",
+        "fullExplanation": "2x/(x^2 - 1) = 3/4, so 8x = 3x^2 - 3, 3x^2 - 8x - 3 = 0 = (3x + 1)(x - 3). Roots 3 and -1/3, neither makes a denominator zero."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p12",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 4,
+      "examTypes": [
+        "jee",
+        "board"
+      ],
+      "framework": "mathematics",
+      "title": "Two pipes filling a tank",
+      "statement": "Two pipes together fill a tank in 6 hours. The larger pipe alone takes 5 hours less than the smaller one. How long does the smaller pipe take alone?",
+      "concept": "Work rate equation",
+      "expectedMinutes": 8,
+      "marks": 4,
+      "hints": [
+        "Let the smaller pipe take x hours; the larger takes x - 5.",
+        "Rates add: 1/x + 1/(x - 5) = 1/6.",
+        "Clear denominators: x^2 - 17x + 30 = 0."
+      ],
+      "answerType": "numeric",
+      "answerUnit": "hours",
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p10",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p11",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p13"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p12",
+      "finalAnswer": "15 hours",
+      "numericAnswer": 15,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "15",
+        "15 h",
+        "15 hours",
+        "x = 15",
+        "15hours"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "Rates of work add when pipes work together."
+        },
+        {
+          "label": "Given",
+          "content": "Together 6 h; larger is 5 h faster"
+        },
+        {
+          "label": "Find",
+          "content": "Time for the smaller pipe alone"
+        },
+        {
+          "label": "Concept",
+          "content": "Work rates"
+        },
+        {
+          "label": "Method",
+          "content": "1/x + 1/(x - 5) = 1/6 gives 6(2x - 5) = x(x - 5), so x^2 - 17x + 30 = 0"
+        },
+        {
+          "label": "Solve",
+          "content": "(x - 15)(x - 2) = 0; x = 2 is rejected since x - 5 would be negative"
+        },
+        {
+          "label": "Verify",
+          "content": "1/15 + 1/10 = 1/6."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "reasoning",
+          "description": "Kept the root x = 2.",
+          "matchAnswers": [
+            "2",
+            "2 hours",
+            "2 h"
+          ]
+        },
+        {
+          "type": "misread",
+          "description": "Reported the larger pipe's time 10.",
+          "matchAnswers": [
+            "10",
+            "10 hours",
+            "10 h"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Think in rates: a pipe that fills in x hours fills 1/x of the tank per hour.",
+        "concept": "Combined rate equals the sum of individual rates.",
+        "guide": "1) Rates 1/x and 1/(x - 5). 2) Sum equals 1/6. 3) Multiply through. 4) Solve the quadratic. 5) Reject the root that makes x - 5 negative.",
+        "checkApproach": "If you reached x^2 - 17x + 30 = 0, both roots are positive, so use the extra condition x > 5.",
+        "findMistake": "x = 2 gives the larger pipe -3 hours, impossible. And the question asks for the smaller pipe (15 h), not the larger (10 h).",
+        "fullExplanation": "1/x + 1/(x - 5) = 1/6 leads to x^2 - 17x + 30 = 0 = (x - 15)(x - 2). x = 15 hours for the smaller pipe, 10 hours for the larger."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p13",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 5,
+      "examTypes": [
+        "jee"
+      ],
+      "framework": "mathematics",
+      "title": "Roots that are reciprocals",
+      "statement": "For what value of k are the roots of (k + 1)x^2 - 6x + 3k = 0 reciprocals of each other?",
+      "concept": "Product of roots equals 1",
+      "expectedMinutes": 8,
+      "marks": 5,
+      "hints": [
+        "Reciprocal roots have product 1.",
+        "Product = c/a = 3k/(k + 1).",
+        "Solve 3k = k + 1."
+      ],
+      "answerType": "numeric",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p14",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p15"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p13",
+      "finalAnswer": "k = 1/2",
+      "numericAnswer": 0.5,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "1/2",
+        "0.5",
+        "k = 1/2",
+        "k=0.5"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "A condition on the roots translates to a condition on coefficients."
+        },
+        {
+          "label": "Given",
+          "content": "(k + 1)x^2 - 6x + 3k = 0, roots alpha and 1/alpha"
+        },
+        {
+          "label": "Find",
+          "content": "k"
+        },
+        {
+          "label": "Concept",
+          "content": "Product of roots = c/a"
+        },
+        {
+          "label": "Method",
+          "content": "Set 3k/(k + 1) = 1"
+        },
+        {
+          "label": "Solve",
+          "content": "3k = k + 1, so k = 1/2"
+        },
+        {
+          "label": "Verify",
+          "content": "With k = 1/2: (3/2)x^2 - 6x + 3/2 = 0, product = 1. Also D = 36 - 9 > 0."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "concept",
+          "description": "Used sum of roots = 1 instead of product.",
+          "matchAnswers": [
+            "-5",
+            "k = -5"
+          ]
+        },
+        {
+          "type": "calculation",
+          "description": "Solved 3k = k + 1 as k = 1.",
+          "matchAnswers": [
+            "1",
+            "k = 1"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "If the roots are alpha and 1/alpha, what is their product?",
+        "concept": "Reciprocal roots means product of roots = 1, and product = c/a.",
+        "guide": "1) Write product = 3k/(k + 1). 2) Set equal to 1. 3) Solve the linear equation. 4) Confirm a = k + 1 is non-zero and D >= 0.",
+        "checkApproach": "If you set 3k/(k + 1) = 1 you are correct; solve carefully.",
+        "findMistake": "The trap is using the sum of roots. Reciprocals do not have a fixed sum; they have product 1.",
+        "fullExplanation": "Product of roots = 3k/(k + 1) = 1 gives 3k = k + 1, k = 1/2. Check: D = 36 - 4(3/2)(3/2) = 27 > 0, so real roots exist."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p14",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 5,
+      "examTypes": [
+        "jee"
+      ],
+      "framework": "mathematics",
+      "title": "Sum of squares of roots",
+      "statement": "If alpha and beta are the roots of x^2 - 5x + 3 = 0, find alpha^2 + beta^2.",
+      "concept": "Symmetric functions of roots",
+      "expectedMinutes": 8,
+      "marks": 5,
+      "hints": [
+        "You do not need the actual roots.",
+        "alpha^2 + beta^2 = (alpha + beta)^2 - 2 alpha beta.",
+        "Sum = 5, product = 3."
+      ],
+      "answerType": "numeric",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p13",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p15"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p14",
+      "finalAnswer": "19",
+      "numericAnswer": 19,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "19"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "Ask for an expression in the roots, not the roots themselves."
+        },
+        {
+          "label": "Given",
+          "content": "x^2 - 5x + 3 = 0"
+        },
+        {
+          "label": "Find",
+          "content": "alpha^2 + beta^2"
+        },
+        {
+          "label": "Concept",
+          "content": "Sum and product of roots with an identity"
+        },
+        {
+          "label": "Method",
+          "content": "(alpha + beta)^2 = alpha^2 + 2 alpha beta + beta^2"
+        },
+        {
+          "label": "Solve",
+          "content": "25 - 6 = 19"
+        },
+        {
+          "label": "Verify",
+          "content": "Roots (5 +/- sqrt 13)/2; squares sum to (25 + 13)/2 = 19."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "formula",
+          "description": "Used (alpha + beta)^2 without subtracting 2 alpha beta.",
+          "matchAnswers": [
+            "25"
+          ]
+        },
+        {
+          "type": "sign",
+          "description": "Used sum = -5 and product -3, giving 31.",
+          "matchAnswers": [
+            "31"
+          ]
+        },
+        {
+          "type": "calculation",
+          "description": "Computed 25 - 3.",
+          "matchAnswers": [
+            "22"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Can you express alpha^2 + beta^2 using alpha + beta and alpha beta?",
+        "concept": "Symmetric expressions in roots can be built from sum and product without solving.",
+        "guide": "1) Sum = -b/a = 5. 2) Product = c/a = 3. 3) Use the identity (alpha + beta)^2 - 2 alpha beta. 4) Compute.",
+        "checkApproach": "If you wrote 25 - 2 x 3 you are done: 19.",
+        "findMistake": "The most common error is forgetting the -2 alpha beta term, which gives 25.",
+        "fullExplanation": "alpha + beta = 5, alpha beta = 3. alpha^2 + beta^2 = 5^2 - 2 x 3 = 19."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p15",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "chapterId": "10-mathematics-quadratic-equations",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 5,
+      "examTypes": [
+        "jee"
+      ],
+      "framework": "mathematics",
+      "title": "Common root of two quadratics",
+      "statement": "The equations x^2 + ax + 12 = 0 and x^2 + bx + 3 = 0 have a common root 3. Find a + b.",
+      "concept": "Substituting a common root",
+      "expectedMinutes": 9,
+      "marks": 5,
+      "hints": [
+        "Put x = 3 in both equations.",
+        "9 + 3a + 12 = 0 gives a.",
+        "9 + 3b + 3 = 0 gives b."
+      ],
+      "answerType": "numeric",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p13",
+        "10-mathematics-quadratic-equations-solving-by-factorisation-p14"
+      ]
+    },
+    "solution": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-p15",
+      "finalAnswer": "-11",
+      "numericAnswer": -11,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "-11",
+        "a + b = -11"
+      ],
+      "steps": [
+        {
+          "label": "Understand",
+          "content": "Same root satisfies both equations."
+        },
+        {
+          "label": "Given",
+          "content": "Root 3 is common"
+        },
+        {
+          "label": "Find",
+          "content": "a + b"
+        },
+        {
+          "label": "Concept",
+          "content": "Substitution"
+        },
+        {
+          "label": "Method",
+          "content": "Substitute x = 3 separately"
+        },
+        {
+          "label": "Solve",
+          "content": "a = -7, b = -4, a + b = -11"
+        },
+        {
+          "label": "Verify",
+          "content": "x^2 - 7x + 12 = (x - 3)(x - 4); x^2 - 4x + 3 = (x - 3)(x - 1). Both contain (x - 3)."
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "sign",
+          "description": "Got a = 7, b = 4.",
+          "matchAnswers": [
+            "11"
+          ]
+        },
+        {
+          "type": "misread",
+          "description": "Gave only a.",
+          "matchAnswers": [
+            "-7"
+          ]
+        },
+        {
+          "type": "calculation",
+          "description": "Arithmetic slip in one equation.",
+          "matchAnswers": [
+            "-10",
+            "-12"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Substitute x = 3 into each equation separately.",
+        "concept": "A common root satisfies both equations, so substitution gives two simple linear equations.",
+        "guide": "1) 9 + 3a + 12 = 0. 2) 9 + 3b + 3 = 0. 3) Solve each. 4) Add.",
+        "checkApproach": "If you found a = -7 and b = -4, add them.",
+        "findMistake": "Sign care: 3a = -21 gives a = -7, not 7. Then a + b = -11.",
+        "fullExplanation": "From the first: 3a = -21, a = -7. From the second: 3b = -12, b = -4. a + b = -11."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "9-physics-motion-equations-of-motion-p1",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "chapterId": "9-physics-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 1,
+      "examTypes": [
+        "board",
+        "jee",
+        "neet"
+      ],
+      "framework": "physics",
+      "title": "Final velocity after 5 seconds",
+      "statement": "A body travels with initial velocity 10 m/s and acceleration 2 m/s^2 for 5 seconds. Find its final velocity.",
+      "concept": "Equations of motion, uniform acceleration",
+      "expectedMinutes": 3,
+      "marks": 2,
+      "hints": [
+        "Which equation connects u, a, t and v?",
+        "v = u + at.",
+        "Multiply a by t first, then add u."
+      ],
+      "answerType": "numeric",
+      "answerUnit": "m/s",
+      "similarProblemIds": [
+        "9-physics-motion-equations-of-motion-p2",
+        "9-physics-motion-equations-of-motion-p3"
+      ]
+    },
+    "solution": {
+      "id": "9-physics-motion-equations-of-motion-p1",
+      "finalAnswer": "20 m/s",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "20",
+        "20 m/s",
+        "20m/s",
+        "v = 20 m/s",
+        "20 ms^-1"
+      ],
+      "steps": [
+        {
+          "label": "Given",
+          "content": "u = 10 m/s, a = 2 m/s^2, t = 5 s"
+        },
+        {
+          "label": "Find",
+          "content": "v"
+        },
+        {
+          "label": "Concept",
+          "content": "Equations of motion with uniform acceleration"
+        },
+        {
+          "label": "Diagram",
+          "content": "A straight line; body moving right, acceleration in the same direction"
+        },
+        {
+          "label": "Formula",
+          "content": "v = u + at"
+        },
+        {
+          "label": "Substitute",
+          "content": "v = 10 + (2)(5)"
+        },
+        {
+          "label": "Calculate",
+          "content": "v = 10 + 10 = 20"
+        },
+        {
+          "label": "Unit Check",
+          "content": "m/s + (m/s^2)(s) = m/s"
+        },
+        {
+          "label": "Final Answer",
+          "content": "20 m/s"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "formula",
+          "description": "Used s = ut + 1/2 at^2 and reported the displacement 75.",
+          "matchAnswers": [
+            "75",
+            "75 m"
+          ]
+        },
+        {
+          "type": "sign",
+          "description": "Took acceleration as negative.",
+          "matchAnswers": [
+            "-20",
+            "0"
+          ]
+        },
+        {
+          "type": "calculation",
+          "description": "Added instead of multiplying a and t.",
+          "matchAnswers": [
+            "17",
+            "17 m/s"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "You know u, a and t and want v. Which equation has exactly those four letters?",
+        "concept": "This is uniform acceleration in a straight line, so the first equation of motion v = u + at applies.",
+        "guide": "1) List u, a, t. 2) Pick v = u + at. 3) Substitute. 4) Multiply a x t first. 5) Add u. 6) Write the unit.",
+        "checkApproach": "If you wrote v = 10 + 2 x 5 you are correct. Compute and state the unit.",
+        "findMistake": "If you got 75, you used the displacement equation: that gives distance, not velocity. If you got 0 or -20 you flipped the sign of a, but the body is speeding up.",
+        "fullExplanation": "v = u + at = 10 + (2)(5) = 10 + 10 = 20 m/s. Units check: m/s."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "9-physics-motion-equations-of-motion-p2",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "chapterId": "9-physics-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 1,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "physics",
+      "title": "Convert 54 km/h to m/s",
+      "statement": "Express a speed of 54 km/h in m/s.",
+      "concept": "Unit conversion",
+      "expectedMinutes": 2,
+      "marks": 1,
+      "hints": [
+        "1 km = 1000 m and 1 h = 3600 s.",
+        "Multiply by 5/18.",
+        "54 x 5 / 18."
+      ],
+      "answerType": "numeric",
+      "answerUnit": "m/s",
+      "similarProblemIds": [
+        "9-physics-motion-equations-of-motion-p1",
+        "9-physics-motion-equations-of-motion-p3"
+      ]
+    },
+    "solution": {
+      "id": "9-physics-motion-equations-of-motion-p2",
+      "finalAnswer": "15 m/s",
+      "numericAnswer": 15,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "15",
+        "15 m/s",
+        "15m/s"
+      ],
+      "steps": [
+        {
+          "label": "Given",
+          "content": "54 km/h"
+        },
+        {
+          "label": "Find",
+          "content": "Speed in m/s"
+        },
+        {
+          "label": "Concept",
+          "content": "Unit conversion"
+        },
+        {
+          "label": "Diagram",
+          "content": "None needed"
+        },
+        {
+          "label": "Formula",
+          "content": "m/s = km/h x 5/18"
+        },
+        {
+          "label": "Substitute",
+          "content": "54 x 5/18"
+        },
+        {
+          "label": "Calculate",
+          "content": "15"
+        },
+        {
+          "label": "Unit Check",
+          "content": "km/h x (1000 m / 3600 s) gives m/s"
+        },
+        {
+          "label": "Final Answer",
+          "content": "15 m/s"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "unit",
+          "description": "Multiplied by 18/5.",
+          "matchAnswers": [
+            "194.4",
+            "194"
+          ]
+        },
+        {
+          "type": "calculation",
+          "description": "Divided by 3.6 incorrectly.",
+          "matchAnswers": [
+            "16",
+            "14"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Replace km with 1000 m and h with 3600 s.",
+        "concept": "Converting units: km/h to m/s multiplies by 1000/3600 = 5/18.",
+        "guide": "1) Write 54 km/h as 54 x 1000 m / 3600 s. 2) Simplify. 3) State m/s.",
+        "checkApproach": "If you multiplied by 5/18 you are right.",
+        "findMistake": "Multiplying by 18/5 goes the wrong way (m/s to km/h). 54 x 5/18 = 15.",
+        "fullExplanation": "54 km/h = 54 x 5/18 = 15 m/s."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "9-physics-motion-equations-of-motion-p3",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "chapterId": "9-physics-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 2,
+      "examTypes": [
+        "board",
+        "jee"
+      ],
+      "framework": "physics",
+      "title": "Distance during acceleration",
+      "statement": "A car moving at 20 m/s accelerates uniformly at 2 m/s^2 for 10 s. How far does it travel in this time?",
+      "concept": "Second equation of motion",
+      "expectedMinutes": 4,
+      "marks": 3,
+      "hints": [
+        "You have u, a, t and want s.",
+        "s = ut + (1/2)at^2.",
+        "Do not forget the half."
+      ],
+      "answerType": "numeric",
+      "answerUnit": "m",
+      "similarProblemIds": [
+        "9-physics-motion-equations-of-motion-p4"
+      ]
+    },
+    "solution": {
+      "id": "9-physics-motion-equations-of-motion-p3",
+      "finalAnswer": "300 m",
+      "numericAnswer": 300,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "300",
+        "300 m",
+        "300m"
+      ],
+      "steps": [
+        {
+          "label": "Given",
+          "content": "u = 20 m/s, a = 2 m/s^2, t = 10 s"
+        },
+        {
+          "label": "Find",
+          "content": "s"
+        },
+        {
+          "label": "Concept",
+          "content": "Uniform acceleration, displacement in time t"
+        },
+        {
+          "label": "Diagram",
+          "content": "Car moving right, accelerating right"
+        },
+        {
+          "label": "Formula",
+          "content": "s = ut + (1/2)at^2"
+        },
+        {
+          "label": "Substitute",
+          "content": "s = 20 x 10 + 0.5 x 2 x 10^2"
+        },
+        {
+          "label": "Calculate",
+          "content": "200 + 100 = 300"
+        },
+        {
+          "label": "Unit Check",
+          "content": "(m/s)(s) + (m/s^2)(s^2) = m"
+        },
+        {
+          "label": "Final Answer",
+          "content": "300 m"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "formula",
+          "description": "Forgot the 1/2: 200 + 200.",
+          "matchAnswers": [
+            "400",
+            "400 m"
+          ]
+        },
+        {
+          "type": "formula",
+          "description": "Used s = ut only.",
+          "matchAnswers": [
+            "200",
+            "200 m"
+          ]
+        },
+        {
+          "type": "calculation",
+          "description": "Squared t as 20.",
+          "matchAnswers": [
+            "220",
+            "220 m"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "You want displacement from u, a, t. Which equation has s and t but not v?",
+        "concept": "The second equation of motion gives displacement under uniform acceleration.",
+        "guide": "1) List u, a, t. 2) Use s = ut + (1/2)at^2. 3) Compute ut. 4) Compute (1/2)at^2 with t squared. 5) Add.",
+        "checkApproach": "If you have 200 + 100 you are right.",
+        "findMistake": "400 means the half was dropped; 200 means the acceleration term was skipped.",
+        "fullExplanation": "s = 20 x 10 + 0.5 x 2 x 100 = 200 + 100 = 300 m."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "9-physics-motion-equations-of-motion-p4",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "chapterId": "9-physics-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 3,
+      "examTypes": [
+        "board",
+        "jee",
+        "neet"
+      ],
+      "framework": "physics",
+      "title": "Stopping distance of a bike",
+      "statement": "A bike moving at 15 m/s applies brakes producing a retardation of 3 m/s^2. Find the distance covered before it stops.",
+      "concept": "Third equation of motion with negative acceleration",
+      "expectedMinutes": 5,
+      "marks": 3,
+      "hints": [
+        "Final velocity is 0 when it stops.",
+        "Time is not given, so use v^2 = u^2 + 2as.",
+        "Retardation means a = -3 m/s^2."
+      ],
+      "answerType": "numeric",
+      "answerUnit": "m",
+      "similarProblemIds": [
+        "9-physics-motion-equations-of-motion-p5"
+      ]
+    },
+    "solution": {
+      "id": "9-physics-motion-equations-of-motion-p4",
+      "finalAnswer": "37.5 m",
+      "numericAnswer": 37.5,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "37.5",
+        "37.5 m",
+        "37.5m"
+      ],
+      "steps": [
+        {
+          "label": "Given",
+          "content": "u = 15 m/s, v = 0, a = -3 m/s^2"
+        },
+        {
+          "label": "Find",
+          "content": "s"
+        },
+        {
+          "label": "Concept",
+          "content": "Uniform retardation, no time given"
+        },
+        {
+          "label": "Diagram",
+          "content": "Bike moving right, acceleration pointing left"
+        },
+        {
+          "label": "Formula",
+          "content": "v^2 = u^2 + 2as"
+        },
+        {
+          "label": "Substitute",
+          "content": "0 = 15^2 + 2(-3)s"
+        },
+        {
+          "label": "Calculate",
+          "content": "0 = 225 - 6s, s = 225/6"
+        },
+        {
+          "label": "Unit Check",
+          "content": "(m/s)^2 / (m/s^2) = m"
+        },
+        {
+          "label": "Final Answer",
+          "content": "37.5 m"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "sign",
+          "description": "Took a = +3 and got a negative distance.",
+          "matchAnswers": [
+            "-37.5",
+            "-37.5 m"
+          ]
+        },
+        {
+          "type": "formula",
+          "description": "Used s = ut + 1/2 at^2 with t = 5 assumed.",
+          "matchAnswers": [
+            "112.5",
+            "37"
+          ]
+        },
+        {
+          "type": "calculation",
+          "description": "Divided 225 by 3.",
+          "matchAnswers": [
+            "75",
+            "75 m"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "What is the final velocity of a bike that has stopped? And which equation avoids time?",
+        "concept": "When time is unknown, v^2 = u^2 + 2as connects the velocities to the distance. Brakes give negative a.",
+        "guide": "1) v = 0, u = 15, a = -3. 2) Use v^2 = u^2 + 2as. 3) Substitute with the sign of a. 4) Solve for s. 5) Check the unit.",
+        "checkApproach": "If your line reads 0 = 225 - 6s you are correct.",
+        "findMistake": "A negative distance means the sign of a was wrong: retardation is negative when motion is positive. Also 2as means 2 x 3 = 6, not 3.",
+        "fullExplanation": "0 = 225 + 2(-3)s, so 6s = 225, s = 37.5 m."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "9-physics-motion-equations-of-motion-p5",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "chapterId": "9-physics-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 4,
+      "examTypes": [
+        "jee",
+        "neet"
+      ],
+      "framework": "physics",
+      "title": "Ball thrown upward",
+      "statement": "A ball is thrown vertically upward with speed 20 m/s. Taking g = 10 m/s^2, find the maximum height reached.",
+      "concept": "Motion under gravity",
+      "expectedMinutes": 6,
+      "marks": 4,
+      "hints": [
+        "At the top the velocity is zero.",
+        "Take upward as positive, so a = -10 m/s^2.",
+        "v^2 = u^2 + 2as."
+      ],
+      "answerType": "numeric",
+      "answerUnit": "m",
+      "similarProblemIds": [
+        "9-physics-motion-equations-of-motion-p1",
+        "9-physics-motion-equations-of-motion-p2"
+      ]
+    },
+    "solution": {
+      "id": "9-physics-motion-equations-of-motion-p5",
+      "finalAnswer": "20 m",
+      "numericAnswer": 20,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "20",
+        "20 m",
+        "20m"
+      ],
+      "steps": [
+        {
+          "label": "Given",
+          "content": "u = 20 m/s, v = 0 at the top, a = -10 m/s^2"
+        },
+        {
+          "label": "Find",
+          "content": "Maximum height h"
+        },
+        {
+          "label": "Concept",
+          "content": "Uniformly accelerated motion under gravity"
+        },
+        {
+          "label": "Diagram",
+          "content": "Ball moving up, g pointing down"
+        },
+        {
+          "label": "Formula",
+          "content": "v^2 = u^2 + 2as"
+        },
+        {
+          "label": "Substitute",
+          "content": "0 = 400 + 2(-10)h"
+        },
+        {
+          "label": "Calculate",
+          "content": "20h = 400, h = 20"
+        },
+        {
+          "label": "Unit Check",
+          "content": "(m/s)^2 / (m/s^2) = m"
+        },
+        {
+          "label": "Final Answer",
+          "content": "20 m"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "sign",
+          "description": "Used a = +10 giving a negative height.",
+          "matchAnswers": [
+            "-20",
+            "-20 m"
+          ]
+        },
+        {
+          "type": "formula",
+          "description": "Used h = ut giving 40 with t = 2 s and no gravity term.",
+          "matchAnswers": [
+            "40",
+            "40 m"
+          ]
+        },
+        {
+          "type": "calculation",
+          "description": "Halved wrongly.",
+          "matchAnswers": [
+            "10",
+            "10 m"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "What is the velocity at the highest point?",
+        "concept": "Gravity is a uniform acceleration of 10 m/s^2 downward. Choose up as positive.",
+        "guide": "1) v = 0 at the top. 2) a = -10. 3) v^2 = u^2 + 2as. 4) Solve for s.",
+        "checkApproach": "If you wrote 0 = 400 - 20h you are right.",
+        "findMistake": "A negative height signals a sign error in g. Height should come out positive with a = -10.",
+        "fullExplanation": "0 = 20^2 + 2(-10)h gives h = 400/20 = 20 m."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-p1",
+      "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+      "chapterId": "10-chemistry-chemical-reactions-and-equations",
+      "subjectId": "chemistry",
+      "classLevel": 10,
+      "level": 1,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "inorganic_chemistry",
+      "title": "Balance the iron and steam reaction",
+      "statement": "Balance the equation Fe + H2O -> Fe3O4 + H2 and give the coefficient of H2O.",
+      "concept": "Balancing by coefficients",
+      "expectedMinutes": 4,
+      "marks": 2,
+      "hints": [
+        "Balance Fe first: 3 Fe on the right.",
+        "Then O: 4 oxygens on the right.",
+        "Finally H."
+      ],
+      "answerType": "numeric",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-chemistry-chemical-reactions-and-equations-balancing-equations-p2"
+      ]
+    },
+    "solution": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-p1",
+      "finalAnswer": "4",
+      "numericAnswer": 4,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "4",
+        "4H2O",
+        "3Fe + 4H2O -> Fe3O4 + 4H2"
+      ],
+      "steps": [
+        {
+          "label": "Element/Compound",
+          "content": "Fe, H2O, Fe3O4, H2"
+        },
+        {
+          "label": "Property",
+          "content": "Atoms must balance on both sides"
+        },
+        {
+          "label": "Concept",
+          "content": "Conservation of mass"
+        },
+        {
+          "label": "Trend/Reaction",
+          "content": "Fe: 3, O: 4, then H: 8 needs 4H2"
+        },
+        {
+          "label": "Reasoning",
+          "content": "3Fe + 4H2O -> Fe3O4 + 4H2"
+        },
+        {
+          "label": "Answer",
+          "content": "Coefficient of H2O is 4"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "concept",
+          "description": "Changed the subscript of water instead of the coefficient.",
+          "matchAnswers": [
+            "2",
+            "H4O"
+          ]
+        },
+        {
+          "type": "calculation",
+          "description": "Balanced O but not H, giving 4H2 missing.",
+          "matchAnswers": [
+            "3"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Start with the element that appears in only one compound on each side: iron.",
+        "concept": "Balancing means equal atoms of each element on both sides, adjusted only with coefficients.",
+        "guide": "1) 3Fe for Fe3O4. 2) 4H2O for four O. 3) That gives 8 H, so 4H2. 4) Recheck.",
+        "checkApproach": "If you have 3Fe + 4H2O -> Fe3O4 + 4H2 you are balanced.",
+        "findMistake": "Never change H2O to H4O or similar; that is a different substance. Only coefficients change.",
+        "fullExplanation": "3Fe + 4H2O -> Fe3O4 + 4H2. Fe 3 = 3, O 4 = 4, H 8 = 8."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-p2",
+      "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+      "chapterId": "10-chemistry-chemical-reactions-and-equations",
+      "subjectId": "chemistry",
+      "classLevel": 10,
+      "level": 2,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "inorganic_chemistry",
+      "title": "Coefficient of oxygen in propane combustion",
+      "statement": "Balance C3H8 + O2 -> CO2 + H2O and give the coefficient of O2.",
+      "concept": "Balancing combustion equations",
+      "expectedMinutes": 5,
+      "marks": 3,
+      "hints": [
+        "Balance C first, then H, then O last.",
+        "3CO2 and 4H2O.",
+        "Count O on the right: 6 + 4."
+      ],
+      "answerType": "numeric",
+      "answerUnit": null,
+      "similarProblemIds": [
+        "10-chemistry-chemical-reactions-and-equations-balancing-equations-p3"
+      ]
+    },
+    "solution": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-p2",
+      "finalAnswer": "5",
+      "numericAnswer": 5,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "5",
+        "5O2",
+        "C3H8 + 5O2 -> 3CO2 + 4H2O"
+      ],
+      "steps": [
+        {
+          "label": "Element/Compound",
+          "content": "C3H8, O2, CO2, H2O"
+        },
+        {
+          "label": "Property",
+          "content": "Atom counts"
+        },
+        {
+          "label": "Concept",
+          "content": "Conservation of mass; O balanced last"
+        },
+        {
+          "label": "Trend/Reaction",
+          "content": "C: 3CO2; H: 4H2O; O right = 10, so 5O2"
+        },
+        {
+          "label": "Reasoning",
+          "content": "C3H8 + 5O2 -> 3CO2 + 4H2O"
+        },
+        {
+          "label": "Answer",
+          "content": "Coefficient of O2 is 5"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "calculation",
+          "description": "Counted O as 7 and wrote 3.5 or 7.",
+          "matchAnswers": [
+            "3.5",
+            "7"
+          ]
+        },
+        {
+          "type": "concept",
+          "description": "Balanced O before H and got 4.",
+          "matchAnswers": [
+            "4"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Carbon and hydrogen come from one molecule each, so fix them first.",
+        "concept": "Combustion: hydrocarbon plus oxygen gives CO2 and water. Oxygen appears in three places, so balance it last.",
+        "guide": "1) 3CO2. 2) 4H2O. 3) Count O on the right: 6 + 4 = 10. 4) 5O2.",
+        "checkApproach": "If you have 3CO2 and 4H2O, count the oxygen atoms on the right.",
+        "findMistake": "If you reached 3.5 you counted oxygen atoms as 7; it is 6 from CO2 plus 4 from H2O = 10.",
+        "fullExplanation": "C3H8 + 5O2 -> 3CO2 + 4H2O."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-p3",
+      "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+      "chapterId": "10-chemistry-chemical-reactions-and-equations",
+      "subjectId": "chemistry",
+      "classLevel": 10,
+      "level": 3,
+      "examTypes": [
+        "board",
+        "jee"
+      ],
+      "framework": "physical_chemistry",
+      "title": "Mass conserved in a reaction",
+      "statement": "When 24 g of magnesium burns completely in oxygen it forms 40 g of magnesium oxide. What mass of oxygen reacted?",
+      "concept": "Law of conservation of mass",
+      "expectedMinutes": 3,
+      "marks": 2,
+      "hints": [
+        "Mass of reactants equals mass of products.",
+        "Mg + O2 -> MgO: 24 + m = 40.",
+        "Solve for m."
+      ],
+      "answerType": "numeric",
+      "answerUnit": "g",
+      "similarProblemIds": [
+        "10-chemistry-chemical-reactions-and-equations-balancing-equations-p1",
+        "10-chemistry-chemical-reactions-and-equations-balancing-equations-p2"
+      ]
+    },
+    "solution": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-p3",
+      "finalAnswer": "16 g",
+      "numericAnswer": 16,
+      "tolerance": 0.01,
+      "acceptedAnswers": [
+        "16",
+        "16 g",
+        "16g"
+      ],
+      "steps": [
+        {
+          "label": "Given",
+          "content": "Mg 24 g, MgO 40 g"
+        },
+        {
+          "label": "Formula",
+          "content": "Mass of reactants = mass of products"
+        },
+        {
+          "label": "Units",
+          "content": "grams"
+        },
+        {
+          "label": "Substitute",
+          "content": "24 + m = 40"
+        },
+        {
+          "label": "Calculate",
+          "content": "m = 16"
+        },
+        {
+          "label": "Verify",
+          "content": "2Mg + O2 -> 2MgO: 48 g Mg with 32 g O2 gives 80 g MgO, scaled by half matches"
+        }
+      ],
+      "commonMistakes": [
+        {
+          "type": "concept",
+          "description": "Added the masses.",
+          "matchAnswers": [
+            "64",
+            "64 g"
+          ]
+        },
+        {
+          "type": "misread",
+          "description": "Reported the mass of MgO.",
+          "matchAnswers": [
+            "40",
+            "40 g"
+          ]
+        }
+      ],
+      "coach": {
+        "hint": "Total mass before equals total mass after. What is missing on the reactant side?",
+        "concept": "Conservation of mass: atoms rearrange but the total mass stays the same.",
+        "guide": "1) Reactants: Mg + O2. 2) Product: MgO. 3) 24 + m = 40. 4) Solve.",
+        "checkApproach": "If you set 24 + m = 40 you are right.",
+        "findMistake": "Adding 24 and 40 confuses reactants with products. Oxygen is a reactant, so subtract.",
+        "fullExplanation": "m = 40 - 24 = 16 g of oxygen."
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-physics-light-reflection-spherical-mirrors-p1",
+      "topicId": "10-physics-light-reflection-spherical-mirrors",
+      "chapterId": "10-physics-light-reflection-and-refraction",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "physics",
+      "title": "Focal length from radius",
+      "statement": "Find the focal length in cm of a convex mirror whose radius of curvature is 32 cm.",
+      "concept": "Focal length R/2",
+      "expectedMinutes": 2,
+      "marks": 2,
+      "hints": [
+        "Formula: f = R / 2.",
+        "Convex mirror focal length is positive."
+      ],
+      "answerType": "numeric",
+      "answerUnit": null,
+      "similarProblemIds": []
+    },
+    "solution": {
+      "id": "10-physics-light-reflection-spherical-mirrors-p1",
+      "finalAnswer": "16",
+      "numericAnswer": 16,
+      "tolerance": 0.1,
+      "acceptedAnswers": [
+        "16"
+      ],
+      "steps": [
+        {
+          "label": "Step 1",
+          "content": "f = R / 2 = 32 / 2 = 16 cm."
+        }
+      ],
+      "commonMistakes": [],
+      "coach": {
+        "hint": "Check given parameters carefully.",
+        "concept": "Fundamental principle.",
+        "guide": "Substitute into formula.",
+        "checkApproach": "Double check calculation.",
+        "findMistake": "Watch signs and units.",
+        "fullExplanation": "16"
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-physics-light-refraction-lenses-power-p1",
+      "topicId": "10-physics-light-refraction-lenses-power",
+      "chapterId": "10-physics-light-reflection-and-refraction",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "physics",
+      "title": "Power calculation",
+      "statement": "A convex lens has a focal length of 50 cm. Calculate its optical power in dioptres.",
+      "concept": "P = 1/f(m)",
+      "expectedMinutes": 2,
+      "marks": 2,
+      "hints": [
+        "Convert 50 cm to meters: 0.5 m",
+        "P = 1 / 0.5"
+      ],
+      "answerType": "numeric",
+      "answerUnit": null,
+      "similarProblemIds": []
+    },
+    "solution": {
+      "id": "10-physics-light-refraction-lenses-power-p1",
+      "finalAnswer": "2",
+      "numericAnswer": 2,
+      "tolerance": 0.05,
+      "acceptedAnswers": [
+        "2"
+      ],
+      "steps": [
+        {
+          "label": "Step 1",
+          "content": "f = 50 cm = 0.5 m. P = 1 / 0.5 = +2.0 D."
+        }
+      ],
+      "commonMistakes": [],
+      "coach": {
+        "hint": "Check given parameters carefully.",
+        "concept": "Fundamental principle.",
+        "guide": "Substitute into formula.",
+        "checkApproach": "Double check calculation.",
+        "findMistake": "Watch signs and units.",
+        "fullExplanation": "2"
+      }
+    }
+  },
+  {
+    "problem": {
+      "id": "10-physics-electricity-ohms-law-resistance-p1",
+      "topicId": "10-physics-electricity-ohms-law-resistance",
+      "chapterId": "10-physics-electricity",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "examTypes": [
+        "board"
+      ],
+      "framework": "physics",
+      "title": "Parallel resistance",
+      "statement": "Calculate the equivalent resistance in ohms of three resistors of 30, 20, and 10 ohms connected in parallel.",
+      "concept": "1/R = 1/R1 + 1/R2 + 1/R3",
+      "expectedMinutes": 3,
+      "marks": 3,
+      "hints": [
+        "1/R = 1/30 + 1/20 + 1/10",
+        "Common denominator is 60: (2 + 3 + 6) / 60 = 11/60",
+        "R = 60 / 11 ~ 5.45"
+      ],
+      "answerType": "numeric",
+      "answerUnit": null,
+      "similarProblemIds": []
+    },
+    "solution": {
+      "id": "10-physics-electricity-ohms-law-resistance-p1",
+      "finalAnswer": "5.45",
+      "numericAnswer": 5.45,
+      "tolerance": 0.1,
+      "acceptedAnswers": [
+        "5.45"
+      ],
+      "steps": [
+        {
+          "label": "Step 1",
+          "content": "1/R = 1/30 + 1/20 + 1/10 = 11/60 => R = 60/11 = 5.45 Omega."
+        }
+      ],
+      "commonMistakes": [],
+      "coach": {
+        "hint": "Check given parameters carefully.",
+        "concept": "Fundamental principle.",
+        "guide": "Substitute into formula.",
+        "checkApproach": "Double check calculation.",
+        "findMistake": "Watch signs and units.",
+        "fullExplanation": "5.45"
+      }
+    }
+  }
+]

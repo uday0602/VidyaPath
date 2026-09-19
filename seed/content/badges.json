@@ -1,0 +1,56 @@
+[
+  {
+    "id": "first_module",
+    "name": "First Module",
+    "description": "Completed your first learning module.",
+    "icon": "\ud83d\udcd8"
+  },
+  {
+    "id": "problems_10",
+    "name": "10 Problems Solved",
+    "description": "Solved ten problems in the Problem Lab.",
+    "icon": "\ud83e\udde9"
+  },
+  {
+    "id": "questions_100",
+    "name": "100 Questions",
+    "description": "Answered one hundred questions correctly.",
+    "icon": "\ud83d\udcaf"
+  },
+  {
+    "id": "streak_7",
+    "name": "7-Day Streak",
+    "description": "Seven days of meaningful learning in a row.",
+    "icon": "\ud83d\udd25"
+  },
+  {
+    "id": "streak_30",
+    "name": "30-Day Streak",
+    "description": "Thirty days of meaningful learning in a row.",
+    "icon": "\ud83c\udfc5"
+  },
+  {
+    "id": "streak_100",
+    "name": "100-Day Streak",
+    "description": "One hundred days of meaningful learning in a row.",
+    "icon": "\ud83c\udfc6"
+  },
+  {
+    "id": "problem_solver",
+    "name": "Problem Solver",
+    "description": "Solved twenty-five problems.",
+    "icon": "\ud83d\udee0\ufe0f"
+  },
+  {
+    "id": "revision_master",
+    "name": "Revision Master",
+    "description": "Completed ten revision sessions.",
+    "icon": "\ud83d\udd01"
+  },
+  {
+    "id": "lucky_spin",
+    "name": "Lucky Spin",
+    "description": "Won a badge on the spin wheel.",
+    "icon": "\ud83c\udfa1"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "doubt-quadratic-split",
+    "authorEmail": "priya@vidyapath.demo",
+    "subjectId": "mathematics",
+    "chapterId": "10-mathematics-quadratic-equations",
+    "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+    "title": "Why do we multiply a and c when splitting the middle term?",
+    "body": "For 2x^2 - 7x + 3 my teacher said find numbers with product 6, not 3. I do not understand where the 6 comes from.",
+    "status": "answered",
+    "answers": [
+      {
+        "id": "answer-1",
+        "authorEmail": "rahul@vidyapath.demo",
+        "body": "When a is not 1, the two brackets look like (px + q)(rx + s). Expanding gives pr x^2 + (ps + qr)x + qs. The numbers you split with are ps and qr, and their product is pqrs = (pr)(qs) = a x c. That is why it is 2 x 3 = 6.",
+        "voteCount": 3
+      },
+      {
+        "id": "answer-2",
+        "authorEmail": "meera@vidyapath.demo",
+        "body": "Quick check: the pair -6 and -1 multiplies to 6 and adds to -7. Then group: 2x(x - 3) - 1(x - 3).",
+        "voteCount": 0
+      }
+    ]
+  },
+  {
+    "id": "doubt-retardation-sign",
+    "authorEmail": "rahul@vidyapath.demo",
+    "subjectId": "physics",
+    "chapterId": "9-physics-motion",
+    "topicId": "9-physics-motion-equations-of-motion",
+    "title": "When is acceleration negative in the equations of motion?",
+    "body": "In the braking bike problem I used a = +3 and got a negative distance. What decides the sign?",
+    "status": "answered",
+    "answers": [
+      {
+        "id": "answer-1",
+        "authorEmail": "priya@vidyapath.demo",
+        "body": "Pick the direction of motion as positive. Brakes push against the motion, so the acceleration points the other way and is negative. Then v^2 = u^2 + 2as gives a positive distance.",
+        "voteCount": 0
+      }
+    ]
+  },
+  {
+    "id": "doubt-hcf-vs-lcm",
+    "authorEmail": "meera@vidyapath.demo",
+    "subjectId": "mathematics",
+    "chapterId": "10-mathematics-real-numbers",
+    "topicId": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic",
+    "title": "Which powers go into HCF and which into LCM?",
+    "body": "I keep mixing up whether HCF uses the smallest or largest power of a common prime.",
+    "status": "open",
+    "answers": []
+  },
+  {
+    "id": "doubt-balancing-order",
+    "authorEmail": "priya@vidyapath.demo",
+    "subjectId": "chemistry",
+    "chapterId": "10-chemistry-chemical-reactions-and-equations",
+    "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+    "title": "Why balance oxygen last in combustion?",
+    "body": "Is there a rule for the order in which to balance elements?",
+    "status": "open",
+    "answers": []
+  }
+]

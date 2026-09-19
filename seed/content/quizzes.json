@@ -1,0 +1,294 @@
+[
+  {
+    "id": "10-mathematics-real-numbers-euclids-division-lemma-quiz",
+    "title": "Euclid's Division Lemma Quiz",
+    "topicId": "10-mathematics-real-numbers-euclids-division-lemma",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-mathematics-real-numbers-euclids-division-lemma-q1",
+      "10-mathematics-real-numbers-euclids-division-lemma-q2",
+      "10-mathematics-real-numbers-euclids-division-lemma-q3",
+      "10-mathematics-real-numbers-euclids-division-lemma-q4",
+      "10-mathematics-real-numbers-euclids-division-lemma-q5",
+      "10-mathematics-real-numbers-euclids-division-lemma-q6"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-quiz",
+    "title": "Fundamental Theorem of Arithmetic Quiz",
+    "topicId": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q1",
+      "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q2",
+      "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q3",
+      "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q4",
+      "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q5",
+      "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q6"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "10-mathematics-polynomials-zeros-and-coefficients-quiz",
+    "title": "Zeros and Coefficients Quiz",
+    "topicId": "10-mathematics-polynomials-zeros-and-coefficients",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-mathematics-polynomials-zeros-and-coefficients-q1",
+      "10-mathematics-polynomials-zeros-and-coefficients-q2",
+      "10-mathematics-polynomials-zeros-and-coefficients-q3",
+      "10-mathematics-polynomials-zeros-and-coefficients-q4",
+      "10-mathematics-polynomials-zeros-and-coefficients-q5",
+      "10-mathematics-polynomials-zeros-and-coefficients-q6"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "10-mathematics-quadratic-equations-standard-form-quiz",
+    "title": "Standard Form of a Quadratic Equation Quiz",
+    "topicId": "10-mathematics-quadratic-equations-standard-form",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-mathematics-quadratic-equations-standard-form-q1",
+      "10-mathematics-quadratic-equations-standard-form-q2",
+      "10-mathematics-quadratic-equations-standard-form-q3",
+      "10-mathematics-quadratic-equations-standard-form-q4",
+      "10-mathematics-quadratic-equations-standard-form-q5",
+      "10-mathematics-quadratic-equations-standard-form-q6"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "10-mathematics-quadratic-equations-solving-by-factorisation-quiz",
+    "title": "Solving by Factorisation and the Quadratic Formula Quiz",
+    "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q1",
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q2",
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q3",
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q4",
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q5",
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q6",
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q7",
+      "10-mathematics-quadratic-equations-solving-by-factorisation-q8"
+    ],
+    "timeLimitSec": 480
+  },
+  {
+    "id": "10-mathematics-quadratic-equations-nature-of-roots-quiz",
+    "title": "Nature of Roots and the Discriminant Quiz",
+    "topicId": "10-mathematics-quadratic-equations-nature-of-roots",
+    "subjectId": "mathematics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-mathematics-quadratic-equations-nature-of-roots-q1",
+      "10-mathematics-quadratic-equations-nature-of-roots-q2",
+      "10-mathematics-quadratic-equations-nature-of-roots-q3",
+      "10-mathematics-quadratic-equations-nature-of-roots-q4",
+      "10-mathematics-quadratic-equations-nature-of-roots-q5",
+      "10-mathematics-quadratic-equations-nature-of-roots-q6"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "9-physics-motion-equations-of-motion-quiz",
+    "title": "Equations of Motion Quiz",
+    "topicId": "9-physics-motion-equations-of-motion",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "level": 1,
+    "questionIds": [
+      "9-physics-motion-equations-of-motion-q1",
+      "9-physics-motion-equations-of-motion-q2",
+      "9-physics-motion-equations-of-motion-q3",
+      "9-physics-motion-equations-of-motion-q4",
+      "9-physics-motion-equations-of-motion-q5",
+      "9-physics-motion-equations-of-motion-q6"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-quiz",
+    "title": "Balancing Chemical Equations Quiz",
+    "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+    "subjectId": "chemistry",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-chemistry-chemical-reactions-and-equations-balancing-equations-q1",
+      "10-chemistry-chemical-reactions-and-equations-balancing-equations-q2",
+      "10-chemistry-chemical-reactions-and-equations-balancing-equations-q3",
+      "10-chemistry-chemical-reactions-and-equations-balancing-equations-q4",
+      "10-chemistry-chemical-reactions-and-equations-balancing-equations-q5",
+      "10-chemistry-chemical-reactions-and-equations-balancing-equations-q6"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "10-physics-light-reflection-spherical-mirrors-quiz",
+    "title": "Class 10 Light: Reflection & Mirrors MCQ Quiz",
+    "topicId": "10-physics-light-reflection-spherical-mirrors",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-physics-light-reflection-spherical-mirrors-q1",
+      "10-physics-light-reflection-spherical-mirrors-q2",
+      "10-physics-light-reflection-spherical-mirrors-q3",
+      "10-physics-light-reflection-spherical-mirrors-q4"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "10-physics-light-refraction-lenses-power-quiz",
+    "title": "Class 10 Refraction & Lens Power Quiz",
+    "topicId": "10-physics-light-refraction-lenses-power",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-physics-light-refraction-lenses-power-q1",
+      "10-physics-light-refraction-lenses-power-q2",
+      "10-physics-light-refraction-lenses-power-q3"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "10-physics-human-eye-defects-of-vision-quiz",
+    "title": "Class 10 Eye Anatomy & Vision Defects Quiz",
+    "topicId": "10-physics-human-eye-defects-of-vision",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-physics-human-eye-defects-of-vision-q1",
+      "10-physics-human-eye-defects-of-vision-q2"
+    ],
+    "timeLimitSec": 300
+  },
+  {
+    "id": "10-physics-atmospheric-refraction-dispersion-quiz",
+    "title": "Class 10 Dispersion & Scattering Quiz",
+    "topicId": "10-physics-atmospheric-refraction-dispersion",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-physics-atmospheric-refraction-dispersion-q1",
+      "10-physics-atmospheric-refraction-dispersion-q2"
+    ],
+    "timeLimitSec": 300
+  },
+  {
+    "id": "10-physics-electricity-ohms-law-resistance-quiz",
+    "title": "Class 10 Ohm's Law & Circuit Basics Quiz",
+    "topicId": "10-physics-electricity-ohms-law-resistance",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-physics-electricity-ohms-law-resistance-q1",
+      "10-physics-electricity-ohms-law-resistance-q2",
+      "10-physics-electricity-ohms-law-resistance-q3"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "10-physics-electricity-heating-effect-electric-power-quiz",
+    "title": "Class 10 Heating Effect & Power Quiz",
+    "topicId": "10-physics-electricity-heating-effect-electric-power",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-physics-electricity-heating-effect-electric-power-q1",
+      "10-physics-electricity-heating-effect-electric-power-q2"
+    ],
+    "timeLimitSec": 300
+  },
+  {
+    "id": "10-physics-magnetic-field-and-field-lines-quiz",
+    "title": "Class 10 Magnetic Field Lines Quiz",
+    "topicId": "10-physics-magnetic-field-and-field-lines",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-physics-magnetic-field-and-field-lines-q1"
+    ],
+    "timeLimitSec": 300
+  },
+  {
+    "id": "10-physics-electromagnetic-induction-and-motor-quiz",
+    "title": "Class 10 Electric Motor & Circuits Quiz",
+    "topicId": "10-physics-electromagnetic-induction-and-motor",
+    "subjectId": "physics",
+    "classLevel": 10,
+    "level": 1,
+    "questionIds": [
+      "10-physics-electromagnetic-induction-and-motor-q1"
+    ],
+    "timeLimitSec": 300
+  },
+  {
+    "id": "9-physics-force-and-laws-of-motion-newtons-laws-quiz",
+    "title": "Class 9 Newton's Laws Quiz",
+    "topicId": "9-physics-force-and-laws-of-motion-newtons-laws",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "level": 1,
+    "questionIds": [
+      "9-physics-force-and-laws-of-motion-newtons-laws-q1"
+    ],
+    "timeLimitSec": 300
+  },
+  {
+    "id": "9-physics-gravitation-universal-law-and-free-fall-quiz",
+    "title": "Class 9 Gravitation & Weight Quiz",
+    "topicId": "9-physics-gravitation-universal-law-and-free-fall",
+    "subjectId": "physics",
+    "classLevel": 9,
+    "level": 1,
+    "questionIds": [
+      "9-physics-gravitation-universal-law-and-free-fall-q1"
+    ],
+    "timeLimitSec": 300
+  },
+  {
+    "id": "11-physics-motion-in-a-straight-line-kinematics-quiz",
+    "title": "Class 11 1D Kinematics JEE / NEET Quiz",
+    "topicId": "11-physics-motion-in-a-straight-line-kinematics",
+    "subjectId": "physics",
+    "classLevel": 11,
+    "level": 2,
+    "questionIds": [
+      "11-physics-motion-in-a-straight-line-kinematics-q1"
+    ],
+    "timeLimitSec": 360
+  },
+  {
+    "id": "12-physics-electric-charges-and-fields-coulombs-law-gauss-quiz",
+    "title": "Class 12 Electrostatics & Gauss's Law Quiz",
+    "topicId": "12-physics-electric-charges-and-fields-coulombs-law-gauss",
+    "subjectId": "physics",
+    "classLevel": 12,
+    "level": 3,
+    "questionIds": [
+      "12-physics-electric-charges-and-fields-coulombs-law-gauss-q1"
+    ],
+    "timeLimitSec": 360
+  }
+]

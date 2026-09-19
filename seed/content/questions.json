@@ -1,0 +1,1514 @@
+[
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q1",
+      "topicId": "10-mathematics-real-numbers-euclids-division-lemma",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "In a = bq + r, the remainder r satisfies",
+      "options": [
+        "r > b",
+        "0 <= r < b",
+        "r = b",
+        "r < 0"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q1",
+      "correctIndex": 1,
+      "explanation": "The remainder is always non-negative and smaller than the divisor."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q2",
+      "topicId": "10-mathematics-real-numbers-euclids-division-lemma",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "Using Euclid's algorithm, HCF(135, 225) is",
+      "options": [
+        "5",
+        "15",
+        "45",
+        "90"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q2",
+      "correctIndex": 2,
+      "explanation": "225 = 135 x 1 + 90, 135 = 90 x 1 + 45, 90 = 45 x 2 + 0. HCF = 45."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q3",
+      "topicId": "10-mathematics-real-numbers-euclids-division-lemma",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "HCF of 96 and 404 is",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "12"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q3",
+      "correctIndex": 1,
+      "explanation": "404 = 96 x 4 + 20, 96 = 20 x 4 + 16, 20 = 16 x 1 + 4, 16 = 4 x 4 + 0. HCF = 4."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q4",
+      "topicId": "10-mathematics-real-numbers-euclids-division-lemma",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "If 117 = 65 x 1 + r, then r is",
+      "options": [
+        "52",
+        "42",
+        "65",
+        "117"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q4",
+      "correctIndex": 0,
+      "explanation": "117 - 65 = 52, and 52 < 65 as required."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q5",
+      "topicId": "10-mathematics-real-numbers-euclids-division-lemma",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "Any positive odd integer has the form",
+      "options": [
+        "2q",
+        "2q + 1",
+        "4q",
+        "q + 1"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q5",
+      "correctIndex": 1,
+      "explanation": "Dividing by 2 leaves remainder 0 or 1; odd numbers have remainder 1."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q6",
+      "topicId": "10-mathematics-real-numbers-euclids-division-lemma",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "The largest number dividing 245 and 1029 leaving remainder 5 in each case is",
+      "options": [
+        "16",
+        "32",
+        "64",
+        "8"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-euclids-division-lemma-q6",
+      "correctIndex": 0,
+      "explanation": "Subtract 5: HCF(240, 1024) = 16."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q1",
+      "topicId": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "Prime factorisation of 140 is",
+      "options": [
+        "2^2 x 5 x 7",
+        "2 x 5 x 7",
+        "2^2 x 35",
+        "2^3 x 5"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q1",
+      "correctIndex": 0,
+      "explanation": "140 = 2 x 70 = 2 x 2 x 35 = 2^2 x 5 x 7."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q2",
+      "topicId": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "HCF(12, 18) is",
+      "options": [
+        "2",
+        "3",
+        "6",
+        "36"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q2",
+      "correctIndex": 2,
+      "explanation": "12 = 2^2 x 3, 18 = 2 x 3^2, common smallest powers give 2 x 3 = 6."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q3",
+      "topicId": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "If HCF(a, b) = 6 and a x b = 216, then LCM(a, b) is",
+      "options": [
+        "12",
+        "24",
+        "36",
+        "48"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q3",
+      "correctIndex": 2,
+      "explanation": "LCM = (a x b) / HCF = 216 / 6 = 36."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q4",
+      "topicId": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Which number can never end with the digit 0?",
+      "options": [
+        "10^n",
+        "6^n",
+        "20^n",
+        "30^n"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q4",
+      "correctIndex": 1,
+      "explanation": "6^n = 2^n x 3^n has no factor 5, so it cannot end in 0."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q5",
+      "topicId": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "LCM of 6, 72 and 120 is",
+      "options": [
+        "360",
+        "720",
+        "240",
+        "180"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q5",
+      "correctIndex": 0,
+      "explanation": "6 = 2 x 3, 72 = 2^3 x 3^2, 120 = 2^3 x 3 x 5. LCM = 2^3 x 3^2 x 5 = 360."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q6",
+      "topicId": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "The number 7 x 11 x 13 + 13 is",
+      "options": [
+        "prime",
+        "composite",
+        "irrational",
+        "a perfect square"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-real-numbers-fundamental-theorem-of-arithmetic-q6",
+      "correctIndex": 1,
+      "explanation": "It equals 13 x (77 + 1) = 13 x 78, so it has factors other than 1 and itself."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q1",
+      "topicId": "10-mathematics-polynomials-zeros-and-coefficients",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "Zeros of x^2 - 5x + 6 are",
+      "options": [
+        "2, 3",
+        "-2, -3",
+        "1, 6",
+        "-1, -6"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q1",
+      "correctIndex": 0,
+      "explanation": "(x - 2)(x - 3) = 0."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q2",
+      "topicId": "10-mathematics-polynomials-zeros-and-coefficients",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "Sum of the zeros of x^2 - 7x + 10 is",
+      "options": [
+        "-7",
+        "7",
+        "10",
+        "-10"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q2",
+      "correctIndex": 1,
+      "explanation": "Sum = -b/a = 7."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q3",
+      "topicId": "10-mathematics-polynomials-zeros-and-coefficients",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Product of the zeros of 2x^2 - 8x + 6 is",
+      "options": [
+        "4",
+        "-4",
+        "3",
+        "-3"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q3",
+      "correctIndex": 2,
+      "explanation": "Product = c/a = 6/2 = 3."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q4",
+      "topicId": "10-mathematics-polynomials-zeros-and-coefficients",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "A quadratic with zeros 4 and -1 is",
+      "options": [
+        "x^2 - 3x - 4",
+        "x^2 + 3x - 4",
+        "x^2 - 3x + 4",
+        "x^2 + 5x + 4"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q4",
+      "correctIndex": 0,
+      "explanation": "Sum 3, product -4, so x^2 - 3x - 4."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q5",
+      "topicId": "10-mathematics-polynomials-zeros-and-coefficients",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "If one zero of x^2 - 6x + k is twice the other, k is",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q5",
+      "correctIndex": 2,
+      "explanation": "Zeros a and 2a: 3a = 6, a = 2, product 2 x 4 = 8 = k."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q6",
+      "topicId": "10-mathematics-polynomials-zeros-and-coefficients",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "The maximum number of zeros of a cubic polynomial is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-polynomials-zeros-and-coefficients-q6",
+      "correctIndex": 2,
+      "explanation": "A degree n polynomial has at most n zeros."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q1",
+      "topicId": "10-mathematics-quadratic-equations-standard-form",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "Which of these is a quadratic equation?",
+      "options": [
+        "x + 1/x = 2",
+        "2x + 3 = 0",
+        "x^3 = 8",
+        "x = 5"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q1",
+      "correctIndex": 0,
+      "explanation": "x + 1/x = 2 gives x^2 - 2x + 1 = 0, degree 2."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q2",
+      "topicId": "10-mathematics-quadratic-equations-standard-form",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "For 3x^2 = 5x - 2, the values of a, b, c in standard form are",
+      "options": [
+        "3, 5, -2",
+        "3, -5, 2",
+        "-3, 5, 2",
+        "3, -5, -2"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q2",
+      "correctIndex": 1,
+      "explanation": "3x^2 - 5x + 2 = 0."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q3",
+      "topicId": "10-mathematics-quadratic-equations-standard-form",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "(x + 1)^2 = 2(x - 3) simplifies to",
+      "options": [
+        "x^2 + 7 = 0",
+        "x^2 - 7 = 0",
+        "x^2 + 4x + 7 = 0",
+        "x^2 - 5 = 0"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q3",
+      "correctIndex": 0,
+      "explanation": "x^2 + 2x + 1 = 2x - 6 gives x^2 + 7 = 0."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q4",
+      "topicId": "10-mathematics-quadratic-equations-standard-form",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Is x(x + 1) + 8 = (x + 2)(x - 2) quadratic?",
+      "options": [
+        "Yes, a = 1",
+        "Yes, a = 2",
+        "No, the x^2 terms cancel",
+        "No, it has no constant"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q4",
+      "correctIndex": 2,
+      "explanation": "Both sides have x^2, leaving x + 12 = 0."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q5",
+      "topicId": "10-mathematics-quadratic-equations-standard-form",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "Two consecutive positive integers have product 306. The equation is",
+      "options": [
+        "x^2 + x - 306 = 0",
+        "x^2 - x - 306 = 0",
+        "x^2 + 306 = 0",
+        "2x + 1 = 306"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q5",
+      "correctIndex": 0,
+      "explanation": "x(x + 1) = 306."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q6",
+      "topicId": "10-mathematics-quadratic-equations-standard-form",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "Which value is a root of x^2 - 3x - 10 = 0?",
+      "options": [
+        "2",
+        "5",
+        "-5",
+        "3"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-standard-form-q6",
+      "correctIndex": 1,
+      "explanation": "25 - 15 - 10 = 0."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q1",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "Roots of x^2 - 7x + 12 = 0 are",
+      "options": [
+        "3, 4",
+        "-3, -4",
+        "2, 6",
+        "-2, -6"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q1",
+      "correctIndex": 0,
+      "explanation": "Product 12, sum -7: -3 and -4, so (x - 3)(x - 4)."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q2",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "To split the middle term of 2x^2 + x - 6, the two numbers must have product",
+      "options": [
+        "-6",
+        "-12",
+        "6",
+        "12"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q2",
+      "correctIndex": 1,
+      "explanation": "Product must be a x c = 2 x (-6) = -12."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q3",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Roots of 2x^2 + x - 6 = 0 are",
+      "options": [
+        "3/2, -2",
+        "-3/2, 2",
+        "3, -2",
+        "2, -3"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q3",
+      "correctIndex": 0,
+      "explanation": "Split with 4 and -3: (2x - 3)(x + 2) = 0."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q4",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Roots of x^2 - 3x - 10 = 0 are",
+      "options": [
+        "5, -2",
+        "-5, 2",
+        "5, 2",
+        "-5, -2"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q4",
+      "correctIndex": 0,
+      "explanation": "Product -10, sum -3: -5 and 2, so (x - 5)(x + 2)."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q5",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "Roots of x^2 + 2x - 1 = 0 are",
+      "options": [
+        "-1 +/- sqrt 2",
+        "1 +/- sqrt 2",
+        "-2 +/- sqrt 2",
+        "-1 +/- 2"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q5",
+      "correctIndex": 0,
+      "explanation": "Formula: x = [-2 +/- sqrt(4 + 4)] / 2 = -1 +/- sqrt 2."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q6",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "In the quadratic formula the denominator is",
+      "options": [
+        "2",
+        "a",
+        "2a",
+        "b"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q6",
+      "correctIndex": 2,
+      "explanation": "x = [-b +/- sqrt(b^2 - 4ac)] / 2a."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q7",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 4,
+      "text": "A rectangle of area 60 has length 7 more than breadth. The breadth is",
+      "options": [
+        "5",
+        "12",
+        "-12",
+        "7"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q7",
+      "correctIndex": 0,
+      "explanation": "b^2 + 7b - 60 = 0, (b + 12)(b - 5) = 0; reject -12."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q8",
+      "topicId": "10-mathematics-quadratic-equations-solving-by-factorisation",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 4,
+      "text": "If x = 2 is a root of x^2 + kx - 10 = 0, then k is",
+      "options": [
+        "3",
+        "-3",
+        "5",
+        "-5"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-solving-by-factorisation-q8",
+      "correctIndex": 0,
+      "explanation": "4 + 2k - 10 = 0, so k = 3."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q1",
+      "topicId": "10-mathematics-quadratic-equations-nature-of-roots",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "The discriminant of ax^2 + bx + c = 0 is",
+      "options": [
+        "b^2 + 4ac",
+        "b^2 - 4ac",
+        "4ac - b^2",
+        "b - 4ac"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q1",
+      "correctIndex": 1,
+      "explanation": "D = b^2 - 4ac."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q2",
+      "topicId": "10-mathematics-quadratic-equations-nature-of-roots",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "If D < 0 the equation has",
+      "options": [
+        "two distinct real roots",
+        "equal roots",
+        "no real roots",
+        "one root"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q2",
+      "correctIndex": 2,
+      "explanation": "Negative discriminant means no real roots."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q3",
+      "topicId": "10-mathematics-quadratic-equations-nature-of-roots",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Nature of roots of 2x^2 - 4x + 3 = 0",
+      "options": [
+        "distinct real",
+        "equal real",
+        "no real roots",
+        "rational"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q3",
+      "correctIndex": 2,
+      "explanation": "D = 16 - 24 = -8 < 0."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q4",
+      "topicId": "10-mathematics-quadratic-equations-nature-of-roots",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "kx^2 + 4x + 1 = 0 has equal roots when k is",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q4",
+      "correctIndex": 1,
+      "explanation": "16 - 4k = 0 gives k = 4."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q5",
+      "topicId": "10-mathematics-quadratic-equations-nature-of-roots",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "For x^2 - 6x + 9 = 0 the roots are",
+      "options": [
+        "3 and -3",
+        "3 and 3",
+        "0 and 6",
+        "no real roots"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q5",
+      "correctIndex": 1,
+      "explanation": "D = 36 - 36 = 0, equal roots x = 3."
+    }
+  },
+  {
+    "question": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q6",
+      "topicId": "10-mathematics-quadratic-equations-nature-of-roots",
+      "subjectId": "mathematics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "2x^2 + kx + 3 = 0 has equal roots when k equals",
+      "options": [
+        "+/- 6",
+        "+/- 2 sqrt 6",
+        "+/- sqrt 6",
+        "+/- 12"
+      ]
+    },
+    "key": {
+      "id": "10-mathematics-quadratic-equations-nature-of-roots-q6",
+      "correctIndex": 1,
+      "explanation": "k^2 - 24 = 0."
+    }
+  },
+  {
+    "question": {
+      "id": "9-physics-motion-equations-of-motion-q1",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 1,
+      "text": "u = 5 m/s, a = 3 m/s^2, t = 4 s. Final velocity is",
+      "options": [
+        "12 m/s",
+        "17 m/s",
+        "20 m/s",
+        "8 m/s"
+      ]
+    },
+    "key": {
+      "id": "9-physics-motion-equations-of-motion-q1",
+      "correctIndex": 1,
+      "explanation": "v = u + at = 5 + 12 = 17 m/s."
+    }
+  },
+  {
+    "question": {
+      "id": "9-physics-motion-equations-of-motion-q2",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 1,
+      "text": "72 km/h in m/s is",
+      "options": [
+        "20 m/s",
+        "72 m/s",
+        "18 m/s",
+        "25 m/s"
+      ]
+    },
+    "key": {
+      "id": "9-physics-motion-equations-of-motion-q2",
+      "correctIndex": 0,
+      "explanation": "72 x 5/18 = 20 m/s."
+    }
+  },
+  {
+    "question": {
+      "id": "9-physics-motion-equations-of-motion-q3",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 2,
+      "text": "A ball from rest falls 3 s with a = 10 m/s^2. Distance fallen is",
+      "options": [
+        "30 m",
+        "45 m",
+        "90 m",
+        "15 m"
+      ]
+    },
+    "key": {
+      "id": "9-physics-motion-equations-of-motion-q3",
+      "correctIndex": 1,
+      "explanation": "s = 0.5 x 10 x 9 = 45 m."
+    }
+  },
+  {
+    "question": {
+      "id": "9-physics-motion-equations-of-motion-q4",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 2,
+      "text": "A train slows from 30 m/s to rest in 15 s. Its acceleration is",
+      "options": [
+        "2 m/s^2",
+        "-2 m/s^2",
+        "0.5 m/s^2",
+        "-0.5 m/s^2"
+      ]
+    },
+    "key": {
+      "id": "9-physics-motion-equations-of-motion-q4",
+      "correctIndex": 1,
+      "explanation": "a = (0 - 30)/15 = -2 m/s^2."
+    }
+  },
+  {
+    "question": {
+      "id": "9-physics-motion-equations-of-motion-q5",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 3,
+      "text": "Which equation does not contain time?",
+      "options": [
+        "v = u + at",
+        "s = ut + 1/2 at^2",
+        "v^2 = u^2 + 2as",
+        "s = vt"
+      ]
+    },
+    "key": {
+      "id": "9-physics-motion-equations-of-motion-q5",
+      "correctIndex": 2,
+      "explanation": "v^2 = u^2 + 2as links velocities, acceleration and displacement."
+    }
+  },
+  {
+    "question": {
+      "id": "9-physics-motion-equations-of-motion-q6",
+      "topicId": "9-physics-motion-equations-of-motion",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 3,
+      "text": "A bike at 15 m/s brakes at 3 m/s^2. Stopping distance is",
+      "options": [
+        "5 m",
+        "22.5 m",
+        "37.5 m",
+        "45 m"
+      ]
+    },
+    "key": {
+      "id": "9-physics-motion-equations-of-motion-q6",
+      "correctIndex": 2,
+      "explanation": "0 = 225 - 6s, s = 37.5 m."
+    }
+  },
+  {
+    "question": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q1",
+      "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+      "subjectId": "chemistry",
+      "classLevel": 10,
+      "level": 1,
+      "text": "Balanced form of H2 + O2 -> H2O is",
+      "options": [
+        "H2 + O2 -> H2O2",
+        "2H2 + O2 -> 2H2O",
+        "H2 + 2O2 -> 2H2O",
+        "2H2 + 2O2 -> 2H2O"
+      ]
+    },
+    "key": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q1",
+      "correctIndex": 1,
+      "explanation": "Two hydrogen molecules and one oxygen molecule give two water molecules."
+    }
+  },
+  {
+    "question": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q2",
+      "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+      "subjectId": "chemistry",
+      "classLevel": 10,
+      "level": 1,
+      "text": "To balance an equation you may change",
+      "options": [
+        "subscripts",
+        "coefficients",
+        "formulas",
+        "element symbols"
+      ]
+    },
+    "key": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q2",
+      "correctIndex": 1,
+      "explanation": "Changing subscripts changes the substance itself."
+    }
+  },
+  {
+    "question": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q3",
+      "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+      "subjectId": "chemistry",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Coefficients that balance Fe + H2O -> Fe3O4 + H2 are",
+      "options": [
+        "3, 4, 1, 4",
+        "1, 4, 1, 4",
+        "3, 4, 1, 2",
+        "2, 3, 1, 3"
+      ]
+    },
+    "key": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q3",
+      "correctIndex": 0,
+      "explanation": "3Fe + 4H2O -> Fe3O4 + 4H2."
+    }
+  },
+  {
+    "question": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q4",
+      "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+      "subjectId": "chemistry",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Fe + CuSO4 -> FeSO4 + Cu is a",
+      "options": [
+        "combination",
+        "decomposition",
+        "displacement",
+        "double displacement"
+      ]
+    },
+    "key": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q4",
+      "correctIndex": 2,
+      "explanation": "Iron displaces copper from its salt."
+    }
+  },
+  {
+    "question": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q5",
+      "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+      "subjectId": "chemistry",
+      "classLevel": 10,
+      "level": 3,
+      "text": "The law behind balancing equations is",
+      "options": [
+        "conservation of energy",
+        "conservation of mass",
+        "law of constant proportions",
+        "Avogadro's law"
+      ]
+    },
+    "key": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q5",
+      "correctIndex": 1,
+      "explanation": "Atoms are neither created nor destroyed in a reaction."
+    }
+  },
+  {
+    "question": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q6",
+      "topicId": "10-chemistry-chemical-reactions-and-equations-balancing-equations",
+      "subjectId": "chemistry",
+      "classLevel": 10,
+      "level": 3,
+      "text": "C3H8 + O2 -> CO2 + H2O balanced needs how many O2?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ]
+    },
+    "key": {
+      "id": "10-chemistry-chemical-reactions-and-equations-balancing-equations-q6",
+      "correctIndex": 2,
+      "explanation": "3CO2 + 4H2O need 10 O atoms, so 5O2."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-light-reflection-spherical-mirrors-q1",
+      "topicId": "10-physics-light-reflection-spherical-mirrors",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "The focal length of a concave mirror with radius of curvature 30 cm is:",
+      "options": [
+        "+30 cm",
+        "-30 cm",
+        "+15 cm",
+        "-15 cm"
+      ]
+    },
+    "key": {
+      "id": "10-physics-light-reflection-spherical-mirrors-q1",
+      "correctIndex": 3,
+      "explanation": "By convention, concave mirror focal length is negative: f = -R/2 = -30/2 = -15 cm."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-light-reflection-spherical-mirrors-q2",
+      "topicId": "10-physics-light-reflection-spherical-mirrors",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Which type of mirror is preferred for vehicle rear-view mirrors and why?",
+      "options": [
+        "Concave, because it magnifies",
+        "Convex, because it gives a wider field of view and erect image",
+        "Plane mirror, for exact size",
+        "Parabolic mirror, for high brightness"
+      ]
+    },
+    "key": {
+      "id": "10-physics-light-reflection-spherical-mirrors-q2",
+      "correctIndex": 1,
+      "explanation": "Convex mirrors always give an erect, diminished virtual image and curve outward, offering a significantly wider field of view."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-light-reflection-spherical-mirrors-q3",
+      "topicId": "10-physics-light-reflection-spherical-mirrors",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "An object is placed at the center of curvature (C) of a concave mirror. The image formed is:",
+      "options": [
+        "At infinity, real and enlarged",
+        "At C, real, inverted and same size",
+        "Between F and C, virtual",
+        "Behind mirror, magnified"
+      ]
+    },
+    "key": {
+      "id": "10-physics-light-reflection-spherical-mirrors-q3",
+      "correctIndex": 1,
+      "explanation": "When placed at C, rays reflect to form a real, inverted image exactly at C with magnification m = -1."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-light-reflection-spherical-mirrors-q4",
+      "topicId": "10-physics-light-reflection-spherical-mirrors",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 3,
+      "text": "If magnification m = -2 for a spherical mirror, this signifies the image is:",
+      "options": [
+        "Virtual, erect, enlarged",
+        "Real, inverted, enlarged twice",
+        "Real, inverted, diminished half",
+        "Virtual, inverted, enlarged"
+      ]
+    },
+    "key": {
+      "id": "10-physics-light-reflection-spherical-mirrors-q4",
+      "correctIndex": 1,
+      "explanation": "Negative sign of magnification denotes a real and inverted image; |m| = 2 denotes twice the object size."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-light-refraction-lenses-power-q1",
+      "topicId": "10-physics-light-refraction-lenses-power",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "The SI unit of power of a lens is:",
+      "options": [
+        "Meter",
+        "Dioptre",
+        "Watt",
+        "Lumen"
+      ]
+    },
+    "key": {
+      "id": "10-physics-light-refraction-lenses-power-q1",
+      "correctIndex": 1,
+      "explanation": "1 Dioptre (D) is defined as the power of a lens of focal length 1 meter."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-light-refraction-lenses-power-q2",
+      "topicId": "10-physics-light-refraction-lenses-power",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "A doctor prescribes a corrective lens of power +1.5 D. The lens is:",
+      "options": [
+        "Diverging lens with f = -66.7 cm",
+        "Converging lens with f = +66.7 cm",
+        "Concave lens with f = +150 cm",
+        "Plane glass with no focal point"
+      ]
+    },
+    "key": {
+      "id": "10-physics-light-refraction-lenses-power-q2",
+      "correctIndex": 1,
+      "explanation": "Positive power indicates a convex (converging) lens. f = 1/P = 1/1.5 m = 0.667 m = +66.7 cm."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-light-refraction-lenses-power-q3",
+      "topicId": "10-physics-light-refraction-lenses-power",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "When light travels from air into glass slab, its frequency:",
+      "options": [
+        "Increases",
+        "Decreases",
+        "Remains unchanged",
+        "Doubles"
+      ]
+    },
+    "key": {
+      "id": "10-physics-light-refraction-lenses-power-q3",
+      "correctIndex": 2,
+      "explanation": "Frequency is a characteristic of the source and remains constant across all media; wavelength and speed decrease."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-human-eye-defects-of-vision-q1",
+      "topicId": "10-physics-human-eye-defects-of-vision",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "The least distance of distinct vision for a normal young adult eye is approximately:",
+      "options": [
+        "2.5 m",
+        "25 cm",
+        "25 mm",
+        "Infinity"
+      ]
+    },
+    "key": {
+      "id": "10-physics-human-eye-defects-of-vision-q1",
+      "correctIndex": 1,
+      "explanation": "The normal near point (least distance of distinct vision) is 25 cm."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-human-eye-defects-of-vision-q2",
+      "topicId": "10-physics-human-eye-defects-of-vision",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "In myopia, the image of a distant object is formed:",
+      "options": [
+        "Behind the retina",
+        "On the yellow spot",
+        "In front of the retina",
+        "On the blind spot"
+      ]
+    },
+    "key": {
+      "id": "10-physics-human-eye-defects-of-vision-q2",
+      "correctIndex": 2,
+      "explanation": "Due to high converging power or elongated eyeball, rays focus in front of the retina."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-atmospheric-refraction-dispersion-q1",
+      "topicId": "10-physics-atmospheric-refraction-dispersion",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "Which color of light bends the most when passing through a triangular glass prism?",
+      "options": [
+        "Red",
+        "Yellow",
+        "Violet",
+        "Green"
+      ]
+    },
+    "key": {
+      "id": "10-physics-atmospheric-refraction-dispersion-q1",
+      "correctIndex": 2,
+      "explanation": "Violet has the shortest visible wavelength, travels slowest in glass, and suffers maximum deviation."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-atmospheric-refraction-dispersion-q2",
+      "topicId": "10-physics-atmospheric-refraction-dispersion",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Due to atmospheric refraction, the apparent duration of daytime on Earth increases by approximately:",
+      "options": [
+        "1 minute",
+        "2 minutes",
+        "4 minutes",
+        "10 minutes"
+      ]
+    },
+    "key": {
+      "id": "10-physics-atmospheric-refraction-dispersion-q2",
+      "correctIndex": 2,
+      "explanation": "Sunrise is advanced by ~2 min and sunset delayed by ~2 min, increasing day length by ~4 minutes."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-electricity-ohms-law-resistance-q1",
+      "topicId": "10-physics-electricity-ohms-law-resistance",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "How much work is done in moving a charge of 2 Coulombs across two points having a potential difference of 12 V?",
+      "options": [
+        "6 Joules",
+        "14 Joules",
+        "24 Joules",
+        "0.16 Joules"
+      ]
+    },
+    "key": {
+      "id": "10-physics-electricity-ohms-law-resistance-q1",
+      "correctIndex": 2,
+      "explanation": "W = V * Q = 12 V * 2 C = 24 Joules."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-electricity-ohms-law-resistance-q2",
+      "topicId": "10-physics-electricity-ohms-law-resistance",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "When a wire is cut into two equal halves, the resistivity of each piece:",
+      "options": [
+        "Halves",
+        "Doubles",
+        "Remains unchanged",
+        "Becomes one-fourth"
+      ]
+    },
+    "key": {
+      "id": "10-physics-electricity-ohms-law-resistance-q2",
+      "correctIndex": 2,
+      "explanation": "Resistivity is an intrinsic material property; it depends only on material and temperature, not dimensions."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-electricity-ohms-law-resistance-q3",
+      "topicId": "10-physics-electricity-ohms-law-resistance",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "Two resistors of 6 Omega and 3 Omega are connected in parallel. Their equivalent resistance is:",
+      "options": [
+        "9 Omega",
+        "2 Omega",
+        "18 Omega",
+        "0.5 Omega"
+      ]
+    },
+    "key": {
+      "id": "10-physics-electricity-ohms-law-resistance-q3",
+      "correctIndex": 1,
+      "explanation": "1/Rp = 1/6 + 1/3 = (1 + 2)/6 = 3/6 = 1/2 => Rp = 2 Omega."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-electricity-heating-effect-electric-power-q1",
+      "topicId": "10-physics-electricity-heating-effect-electric-power",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "Which of the following terms does NOT represent electrical power in a circuit?",
+      "options": [
+        "I^2 * R",
+        "I * R^2",
+        "V * I",
+        "V^2 / R"
+      ]
+    },
+    "key": {
+      "id": "10-physics-electricity-heating-effect-electric-power-q1",
+      "correctIndex": 1,
+      "explanation": "P = V * I = I^2 * R = V^2 / R. I * R^2 is dimensionally incorrect."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-electricity-heating-effect-electric-power-q2",
+      "topicId": "10-physics-electricity-heating-effect-electric-power",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 2,
+      "text": "An electric bulb is rated 220 V and 100 W. When operated on 110 V, the power consumed will be:",
+      "options": [
+        "100 W",
+        "75 W",
+        "50 W",
+        "25 W"
+      ]
+    },
+    "key": {
+      "id": "10-physics-electricity-heating-effect-electric-power-q2",
+      "correctIndex": 3,
+      "explanation": "R = V^2 / P = (220)^2 / 100 = 484 Omega. At 110 V: P = V^2 / R = (110)^2 / 484 = 12100 / 484 = 25 W."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-magnetic-field-and-field-lines-q1",
+      "topicId": "10-physics-magnetic-field-and-field-lines",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "The magnetic field inside a long straight solenoid carrying current:",
+      "options": [
+        "Is zero",
+        "Decreases as we move towards its end",
+        "Increases as we move towards its end",
+        "Is the same at all points"
+      ]
+    },
+    "key": {
+      "id": "10-physics-magnetic-field-and-field-lines-q1",
+      "correctIndex": 3,
+      "explanation": "The field lines inside a solenoid are parallel straight lines, meaning the magnetic field is uniform and constant."
+    }
+  },
+  {
+    "question": {
+      "id": "10-physics-electromagnetic-induction-and-motor-q1",
+      "topicId": "10-physics-electromagnetic-induction-and-motor",
+      "subjectId": "physics",
+      "classLevel": 10,
+      "level": 1,
+      "text": "The essential difference between an AC generator and a DC generator / motor is:",
+      "options": [
+        "AC has an electromagnet while DC has permanent magnet",
+        "DC generator generates a higher voltage",
+        "AC uses slip rings while DC uses a split-ring commutator",
+        "AC motor does not rotate"
+      ]
+    },
+    "key": {
+      "id": "10-physics-electromagnetic-induction-and-motor-q1",
+      "correctIndex": 2,
+      "explanation": "A split-ring commutator reverses connections every half-cycle for DC, while slip rings maintain continuous AC contact."
+    }
+  },
+  {
+    "question": {
+      "id": "9-physics-force-and-laws-of-motion-newtons-laws-q1",
+      "topicId": "9-physics-force-and-laws-of-motion-newtons-laws",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 1,
+      "text": "The inertia of an object tends to cause the object to:",
+      "options": [
+        "Increase its speed",
+        "Decrease its speed",
+        "Resist any change in its state of motion",
+        "Decelerate due to friction"
+      ]
+    },
+    "key": {
+      "id": "9-physics-force-and-laws-of-motion-newtons-laws-q1",
+      "correctIndex": 2,
+      "explanation": "Inertia is the natural resistance of any physical object to any change in its velocity."
+    }
+  },
+  {
+    "question": {
+      "id": "9-physics-gravitation-universal-law-and-free-fall-q1",
+      "topicId": "9-physics-gravitation-universal-law-and-free-fall",
+      "subjectId": "physics",
+      "classLevel": 9,
+      "level": 1,
+      "text": "The value of acceleration due to gravity 'g' on the surface of the Earth is approximately:",
+      "options": [
+        "9.8 m/s^2",
+        "6.67 m/s^2",
+        "98 m/s^2",
+        "zero"
+      ]
+    },
+    "key": {
+      "id": "9-physics-gravitation-universal-law-and-free-fall-q1",
+      "correctIndex": 0,
+      "explanation": "Standard surface gravity g = G*M/R^2 ~ 9.8 m/s^2."
+    }
+  },
+  {
+    "question": {
+      "id": "11-physics-motion-in-a-straight-line-kinematics-q1",
+      "topicId": "11-physics-motion-in-a-straight-line-kinematics",
+      "subjectId": "physics",
+      "classLevel": 11,
+      "level": 2,
+      "text": "The displacement of a particle is given by x = (t - 2)^2. The distance traveled by the particle in first 4 seconds is:",
+      "options": [
+        "0 m",
+        "4 m",
+        "8 m",
+        "16 m"
+      ]
+    },
+    "key": {
+      "id": "11-physics-motion-in-a-straight-line-kinematics-q1",
+      "correctIndex": 2,
+      "explanation": "v = dx/dt = 2(t - 2). At t = 2 s, particle reverses direction! From t = 0 to 2 s: x changes from 4 to 0 (distance = 4 m). From t = 2 to 4 s: x changes from 0 to 4 (distance = 4 m). Total distance = 8 m."
+    }
+  },
+  {
+    "question": {
+      "id": "12-physics-electric-charges-and-fields-coulombs-law-gauss-q1",
+      "topicId": "12-physics-electric-charges-and-fields-coulombs-law-gauss",
+      "subjectId": "physics",
+      "classLevel": 12,
+      "level": 3,
+      "text": "An electric dipole of moment 'p' is placed in an electric field of intensity 'E'. The dipole acquires maximum potential energy when the angle between p and E is:",
+      "options": [
+        "0 degrees",
+        "90 degrees",
+        "180 degrees",
+        "270 degrees"
+      ]
+    },
+    "key": {
+      "id": "12-physics-electric-charges-and-fields-coulombs-law-gauss-q1",
+      "correctIndex": 2,
+      "explanation": "U = -p . E = -p * E * cos(theta). U is maximum when cos(theta) = -1, which occurs at theta = 180 degrees (U_max = +pE, unstable equilibrium)."
+    }
+  }
+]
